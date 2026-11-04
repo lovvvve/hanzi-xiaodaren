@@ -1,0 +1,15 @@
+# 整本杂志 PDF（324M）超过 GitHub 单文件 100M 上限，不入库；其中的模拟题已单独收在同目录的 汉字小达人模拟题2023.pdf
+data/市赛真题/2023年7&8月/会员专享*.pdf
+
+# 模型核查的中间产物，结论已撤回，不发布
+题库/_verify/
+
+# claude.ai Artifact 用的页面产物，由 题库/web/*.py 生成
+题库/zhenti.html
+题库/moni.html
+题库/kancuo.html
+
+题库/_work/
+题库/web/.chk.js
+__pycache__/
+.DS_Store
