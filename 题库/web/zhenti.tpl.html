@@ -122,6 +122,19 @@ h1{margin:0;display:flex;flex-wrap:wrap;align-items:flex-end;gap:.5rem .9rem;fon
 .pbox{position:relative;width:var(--pad);height:var(--pad);background-color:var(--sheet);touch-action:none}
 .pbox canvas{position:absolute;inset:0;width:100%;height:100%;z-index:1;touch-action:none;cursor:crosshair}
 .pad.ro .pbox,.pad.ro canvas{touch-action:auto;cursor:default}
+.pad.tap .pbox,.pad.tap canvas{touch-action:auto;cursor:pointer}
+/* 放大书写板 */
+.wb{position:fixed;inset:0;z-index:30;background:var(--scrim);display:grid;place-items:center;overscroll-behavior:contain;touch-action:none;padding:calc(env(safe-area-inset-top,0px) + .75rem) max(12px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + .75rem) max(12px,env(safe-area-inset-left,0px))}
+.wb-in{width:min(100%,30rem);max-height:100%;overflow:auto;touch-action:pan-y;overscroll-behavior:contain;display:grid;gap:.8rem;justify-items:center;padding:1rem;border-radius:14px;background:var(--sheet)}
+.wb-h{width:100%;display:flex;justify-content:space-between;align-items:center;gap:.5rem;font-size:14px;color:var(--muted)}
+.wb-box{--wb:min(80vw,54vh,24rem);width:var(--wb);height:var(--wb);margin-left:0;background-color:var(--sheet);touch-action:none}
+.wb-box canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+.wb-ctl{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem .9rem}
+.wb-ctl .btn:disabled{opacity:.4;cursor:default}
+.wb-thumbs{display:flex;flex-wrap:wrap;justify-content:center;gap:6px}
+.wb-th{width:42px;height:42px;margin-left:0;padding:0;background-color:var(--sheet);cursor:pointer}
+.wb-th canvas{position:absolute;inset:0;width:100%;height:100%}
+.wb-th.on{outline:2px solid var(--red);outline-offset:2px}
 .pref{width:var(--pad);height:var(--pad);font-size:calc(var(--pad)*.74);border-color:var(--red)}
 .pad-tools{display:flex;flex-wrap:wrap;align-items:center;gap:.2rem 1rem;font-size:13px;color:var(--muted)}
 .pad-tools>span{margin-right:auto}
@@ -259,6 +272,7 @@ button.pk-slot[aria-disabled]{cursor:default}
   <p>__FOOT__</p>
 </footer>
 
+<div class="wb" id="wb" hidden role="dialog" aria-modal="true" aria-label="放大书写"><div class="wb-in"><div class="wb-h"><span id="wbTitle"></span><button type="button" class="btn solid" id="wbDone">完成</button></div><div class="pbox wb-box" id="wbBox"></div><div class="wb-ctl"><button type="button" class="btn" id="wbPrev">上一格</button><button type="button" class="link" id="wbUndo">撤销一笔</button><button type="button" class="link" id="wbWipe">擦掉这格</button><button type="button" class="btn solid" id="wbNext">下一格</button></div><div class="wb-thumbs" id="wbThumbs"></div></div></div>
 <div class="lb" id="lb" hidden><button type="button" class="lb-x" id="lbX">关闭</button><img id="lbImg" alt=""></div>
 
 <script id="data" type="application/json">__DATA__</script>
@@ -285,6 +299,7 @@ button.pk-slot[aria-disabled]{cursor:default}
   });
 
   const $ = id => document.getElementById(id);
+  const COARSE = !!(window.matchMedia && window.matchMedia('(pointer: coarse)').matches); // 手机、平板：点格子放大书写
   const tabsEl = $('tabs'), typesEl = $('types'), infoEl = $('info'), listEl = $('list'), scoreEl = $('score');
   const kwEl = $('kw'), flagEl = $('onlyFlag'), padEl = $('padOn'), flagCnt = $('flagCount'), lb = $('lb'), lbImg = $('lbImg');
 
@@ -409,12 +424,12 @@ button.pk-slot[aria-disabled]{cursor:default}
     if (showPad) {
       let i = 0;
       const n = groups.reduce((a, g) => a + chars(g).length, 0);
-      body += `<div class="pad${done ? ' ro' : ''}" data-id="${esc(q.id)}" role="group" aria-label="手写区，共 ${n} 个字">` +
+      body += `<div class="pad${done ? ' ro' : ''}${COARSE ? ' tap' : ''}" data-id="${esc(q.id)}" role="group" aria-label="手写区，共 ${n} 个字">` +
         groups.map(g => '<span class="pgroup">' + chars(g).map(c =>
           `<span class="pcol"><span class="pbox" data-i="${i++}"></span>${reveal ? `<span class="box pref" title="标准字">${esc(c)}</span>` : ''}</span>`).join('') + '</span>').join('') +
         '</div>';
-      body += `<div class="pad-tools"><span>${reveal ? '上排是你写的，下排红字是标准字' : '用手指或触控笔在格子里写'}</span>` +
-        (done ? '' : '<button type="button" class="link" data-act="undo">撤销一笔</button><button type="button" class="link" data-act="wipe">全部擦掉</button>') + '</div>';
+      body += `<div class="pad-tools"><span>${reveal ? '上排是你写的，下排红字是标准字' : COARSE ? '点格子放大书写' : '在格子里直接写，或放大书写'}</span>` +
+        (done ? '' : '<button type="button" class="link" data-act="board">放大书写</button><button type="button" class="link" data-act="undo">撤销一笔</button><button type="button" class="link" data-act="wipe">全部擦掉</button>') + '</div>';
     }
     if (q.format === 'choice' || q.format === 'judge') {
       const opts = q.format === 'judge' ? [{key:'√', text:'对'}, {key:'×', text:'错'}] : (q.options || []);
@@ -466,7 +481,7 @@ button.pk-slot[aria-disabled]{cursor:default}
     ctx.clearRect(0, 0, w, h);
     ctx.strokeStyle = ctx.fillStyle = inkColor;
     ctx.lineCap = 'round'; ctx.lineJoin = 'round';
-    const lw = Math.max(2, w * 0.055);
+    const lw = Math.max(2, w * 0.05);
     ctx.lineWidth = lw;
     for (const p of cur ? strokes.concat([cur]) : strokes) {
       if (!p.length) continue;
@@ -486,7 +501,7 @@ button.pk-slot[aria-disabled]{cursor:default}
     cv.width = Math.max(1, Math.round(r.width * d));
     cv.height = Math.max(1, Math.round(r.height * d));
   }
-  function bindDraw(cv, id, i) {
+  function bindDraw(cv, id, i, after) {
     let cur = null, pid = null, raf = 0;
     const pt = e => {
       const r = cv.getBoundingClientRect();
@@ -517,6 +532,7 @@ button.pk-slot[aria-disabled]{cursor:default}
       cur = null; pid = null;
       if (raf) { cancelAnimationFrame(raf); raf = 0; }
       paint(cv, strokesOf(id, i));
+      if (after) after();
     };
     cv.addEventListener('pointerup', end);
     cv.addEventListener('pointercancel', end);
@@ -531,7 +547,7 @@ button.pk-slot[aria-disabled]{cursor:default}
       box.appendChild(cv);
       fit(cv);
       paint(cv, strokesOf(id, i));
-      if (!ro) bindDraw(cv, id, i);
+      if (!ro && !pad.classList.contains('tap')) bindDraw(cv, id, i);
     });
   }
   function unmountPad(pad) { pad.querySelectorAll('canvas').forEach(c => { c.width = c.height = 0; c.remove(); }); }
@@ -635,6 +651,59 @@ button.pk-slot[aria-disabled]{cursor:default}
       onBookChange();
     });
   }
+
+  /* ---------- 放大书写板：手机上点格子打开，大号田字格里写，笔画与小格子共用 ---------- */
+  const wb = $('wb'), wbBox = $('wbBox'), wbThumbs = $('wbThumbs'), wbTitle = $('wbTitle');
+  let wbQ = null, wbI = 0, wbChars = [], wbCv = null;
+  function openBoard(id, i) {
+    const q = byId.get(id);
+    if (!q) return;
+    wbQ = q; wbChars = padGroups(q).flatMap(g => chars(g));
+    if (!wbChars.length) return;
+    wb.hidden = false; document.documentElement.style.overflow = 'hidden';
+    readInk(); wbShow(Math.max(0, Math.min(i, wbChars.length - 1)));
+  }
+  function wbThumb(k) {
+    const c = wbThumbs.querySelector(`.wb-th[data-k="${k}"] canvas`);
+    if (c) paint(c, strokesOf(wbQ.id, k));
+  }
+  function wbShow(i) {
+    wbI = i;
+    const st = state.get(wbQ.id) || {}, n = wbChars.length;
+    const reveal = st.done || st.revealed;
+    wbTitle.textContent = `第 ${i + 1} 格 / 共 ${n} 格` + (reveal ? `　标准字：${wbChars[i]}` : '');
+    if (wbCv) { wbCv.width = wbCv.height = 0; }
+    wbBox.innerHTML = '';
+    wbCv = document.createElement('canvas');
+    wbBox.appendChild(wbCv); fit(wbCv); paint(wbCv, strokesOf(wbQ.id, i));
+    bindDraw(wbCv, wbQ.id, i, () => wbThumb(i));
+    wbThumbs.innerHTML = wbChars.map((_, k) => `<button type="button" class="pbox wb-th${k === i ? ' on' : ''}" data-k="${k}" aria-label="第 ${k + 1} 格"></button>`).join('');
+    wbThumbs.querySelectorAll('.wb-th').forEach(b => { const c = document.createElement('canvas'); b.appendChild(c); fit(c); paint(c, strokesOf(wbQ.id, +b.dataset.k)); });
+    $('wbPrev').disabled = i === 0;
+    $('wbNext').textContent = i === n - 1 ? '写完了' : '下一格';
+  }
+  function closeBoard() {
+    if (!wbQ) return;
+    wb.hidden = true; document.documentElement.style.overflow = '';
+    if (wbCv) { wbCv.width = wbCv.height = 0; wbCv = null; }
+    wbThumbs.innerHTML = '';
+    listEl.querySelectorAll('article.q').forEach(card => { if (card.dataset.id === wbQ.id) card.querySelectorAll('.pad').forEach(repaintPad); });
+    wbQ = null;
+  }
+  $('wbPrev').addEventListener('click', () => { if (wbI > 0) wbShow(wbI - 1); });
+  $('wbNext').addEventListener('click', () => { if (wbI < wbChars.length - 1) wbShow(wbI + 1); else closeBoard(); });
+  $('wbDone').addEventListener('click', closeBoard);
+  $('wbUndo').addEventListener('click', () => {
+    const st = state.get(wbQ.id) || {}, ink = (st.ink || []).slice();
+    for (let k = ink.length - 1; k >= 0; k--) if (ink[k][0] === wbI) { ink.splice(k, 1); break; }
+    state.set(wbQ.id, {...st, ink}); paint(wbCv, strokesOf(wbQ.id, wbI)); wbThumb(wbI);
+  });
+  $('wbWipe').addEventListener('click', () => {
+    const st = state.get(wbQ.id) || {};
+    state.set(wbQ.id, {...st, ink: (st.ink || []).filter(x => x[0] !== wbI)}); paint(wbCv, []); wbThumb(wbI);
+  });
+  wbThumbs.addEventListener('click', e => { const b = e.target.closest('.wb-th'); if (b) wbShow(+b.dataset.k); });
+  wb.addEventListener('click', e => { if (e.target === wb) closeBoard(); });
 
   /* ---------- 列表与筛选 ---------- */
   const setCount = new Map(), groupCount = new Map();
@@ -761,6 +830,8 @@ button.pk-slot[aria-disabled]{cursor:default}
     setTimeout(() => { if (b.isConnected) { delete b.dataset.confirm; b.textContent = '清空'; } }, 3000);
   });
   listEl.addEventListener('click', e => {
+    const pb = e.target.closest('.pad.tap:not(.ro) .pbox');
+    if (pb) { openBoard(pb.closest('.pad').dataset.id, +pb.dataset.i); return; }
     const img = e.target.closest('img[data-zoom]');
     if (img) { lbImg.src = img.currentSrc || img.src; lbImg.alt = img.alt; lb.hidden = false; $('lbX').focus(); return; }
     const b = e.target.closest('button[data-act]');
@@ -777,6 +848,7 @@ button.pk-slot[aria-disabled]{cursor:default}
     }
     if (mode !== 'practice') return;
     const card = b.closest('article.q'), q = byId.get(card.dataset.id), st = state.get(q.id) || {};
+    if (act === 'board') { openBoard(q.id, 0); return; }
     if (act === 'undo' || act === 'wipe') {
       const ink = (st.ink || []).slice();
       if (act === 'undo') ink.pop(); else ink.length = 0;
@@ -819,7 +891,11 @@ button.pk-slot[aria-disabled]{cursor:default}
     renderScore();
   });
   lb.addEventListener('click', () => { lb.hidden = true; lbImg.removeAttribute('src'); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !lb.hidden) { lb.hidden = true; lbImg.removeAttribute('src'); } });
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    if (!wb.hidden) closeBoard();
+    else if (!lb.hidden) { lb.hidden = true; lbImg.removeAttribute('src'); }
+  });
   let rz;
   window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => repaintAll(true), 150); });
   const mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
