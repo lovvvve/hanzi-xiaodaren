@@ -1,0 +1,235 @@
+<title>真题答案勘误</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap">
+<style>
+/* 版式：一份核对记录——居中窄栏，每题一张卡；绿色标出答案文件给出的答案 */
+:root{
+  --paper:#f4f7f3; --sheet:#ffffff; --ink:#1c2925; --muted:#5a6962; --line:#d4e0d8;
+  --grid:#2c7555; --grid-line:#c6ddd0; --grid-soft:#e5f1e9; --on-grid:#ffffff;
+  --red:#bf3a2c; --red-soft:#fbe8e4; --warn:#875800; --warn-soft:#fbefd4; --scrim:rgba(10,18,14,.84);
+  --f-display:"Ma Shan Zheng","Kaiti SC","STKaiti","KaiTi",serif;
+  --f-text:"Noto Serif SC","Songti SC","STSong","SimSun",serif;
+  --f-ui:system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0f1512; --sheet:#161e1a; --ink:#e1e9e4; --muted:#94a39b; --line:#2a3830;
+  --grid:#6cc49a; --grid-line:#2d4a3c; --grid-soft:#1a2c23; --on-grid:#0b1510;
+  --red:#ff8070; --red-soft:#3a1d19; --warn:#e9b85c; --warn-soft:#33280f; --scrim:rgba(0,0,0,.86);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0f1512; --sheet:#161e1a; --ink:#e1e9e4; --muted:#94a39b; --line:#2a3830;
+  --grid:#6cc49a; --grid-line:#2d4a3c; --grid-soft:#1a2c23; --on-grid:#0b1510;
+  --red:#ff8070; --red-soft:#3a1d19; --warn:#e9b85c; --warn-soft:#33280f; --scrim:rgba(0,0,0,.86);
+  color-scheme:dark}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font:15px/1.6 var(--f-ui);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 2rem}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+.wrap{max-width:48rem;margin-inline:auto}
+button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+:focus-visible{outline:2px solid var(--grid);outline-offset:2px}
+
+.masthead{padding-block:2rem 1rem;display:grid;gap:.7rem}
+h1{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:.2rem .7rem;font-weight:400}
+.h1-a{font-family:var(--f-display);font-size:clamp(2rem,8vw,2.6rem);line-height:1.1;color:var(--ink)}
+.h1-b{font-family:var(--f-display);font-size:clamp(2rem,8vw,2.6rem);line-height:1.1;color:var(--red)}
+.lede{margin:0;color:var(--muted);max-width:42rem;text-wrap:pretty}
+.lede b{color:var(--ink);font-weight:600}
+
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--line);padding-block:.55rem}
+.bar-in{display:grid;gap:.5rem}
+.tabs{display:flex;gap:.35rem;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;display:inline-flex;align-items:baseline;gap:.4rem;padding:.35rem .85rem;border:1px solid var(--line);border-radius:999px;
+  color:var(--ink);text-decoration:none;font-size:14px;background:var(--sheet);white-space:nowrap}
+.tab-n{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.tab.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.tab.on .tab-n{color:inherit;opacity:.8}
+.tab[data-g="conflict"] .dot{background:var(--warn)}
+.tab[data-g="guess"] .dot{background:var(--muted)}
+.tab[data-g="disputed"] .dot{background:var(--muted)}
+.tab[data-g="ok"] .dot{background:var(--grid)}
+.dot{width:.55rem;height:.55rem;border-radius:50%;display:inline-block;align-self:center;background:var(--line)}
+.chips{display:flex;flex-wrap:wrap;gap:.35rem}
+.chip{font:inherit;font-size:13px;padding:.16rem .65rem;border:1px solid var(--line);border-radius:6px;background:var(--sheet);color:var(--ink);cursor:pointer}
+.chip span{color:var(--muted);margin-left:.2rem;font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"]{border-color:var(--grid);background:var(--grid-soft);color:var(--grid)}
+.chip[aria-pressed="true"] span{color:inherit}
+
+.intro{padding-block:1rem .25rem;color:var(--muted);font-size:14px;max-width:42rem}
+.intro p{margin:0}
+.list{display:grid;gap:1rem;padding-block:.75rem 1rem}
+
+.card{background:var(--sheet);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem 1.1rem;display:grid;gap:.8rem;min-width:0}
+.card.g-conflict{border-left:4px solid var(--warn)}
+.card.g-guess{border-left:4px solid var(--muted)}
+.card.g-disputed{border-left:4px solid var(--muted)}
+.card.g-ok{border-left:4px solid var(--grid)}
+.c-h{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .5rem;font-size:12px}
+.c-no{font-family:var(--f-text);font-weight:700;font-size:15px;color:var(--ink);margin-right:.15rem}
+.tag{padding:0 .45rem;border-radius:4px;border:1px solid var(--line);color:var(--muted);line-height:1.7;white-space:nowrap}
+.conf-high{border-color:transparent;background:var(--grid-soft);color:var(--grid)}
+.conf-medium{border-color:transparent;background:var(--warn-soft);color:var(--warn)}
+.conf-low{border-color:transparent;background:var(--red-soft);color:var(--red)}
+.c-src{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+
+.stem{margin:0;font-family:var(--f-text);font-size:1.06rem;line-height:1.9;white-space:pre-line;overflow-wrap:anywhere}
+.blank{display:inline-block;min-width:3em;border-bottom:1.5px solid var(--ink);margin-inline:.15em}
+.py{font-family:var(--f-text);font-size:1.25rem}
+.fig{margin:0}
+.fig img{display:block;width:100%;max-width:30rem;height:auto;border:1px solid var(--line);border-radius:8px;cursor:zoom-in}
+
+.opts{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,14rem),1fr));gap:.45rem}
+.opt{display:flex;align-items:baseline;gap:.5rem;min-width:0;padding:.5rem .75rem;border:1px solid var(--line);border-radius:8px;font-family:var(--f-text);font-size:1rem;line-height:1.5}
+.opt b{flex:none;font-family:var(--f-ui);font-size:12px;font-weight:600;color:var(--muted)}
+.opt-t{min-width:0;overflow-wrap:anywhere}
+.mk{flex:none;margin-left:auto;align-self:center;font-family:var(--f-ui);font-size:12px;font-weight:600;white-space:nowrap}
+.opt.orig{border-color:var(--red);background:var(--red-soft)}
+.opt.orig .opt-t{text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:1.5px}
+.opt.orig .mk{color:var(--red)}
+.opt.new,.opt.both{border-color:var(--grid);background:var(--grid-soft)}
+.opt.new .mk,.opt.both .mk{color:var(--grid)}
+
+.cmp{display:grid;gap:.35rem}
+.cmp-row{display:grid;grid-template-columns:5.5em 1fr;gap:.6rem;align-items:baseline}
+.cmp-k{font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.04em}
+.cmp-v{font-family:var(--f-text);font-size:1.02rem;font-weight:700;overflow-wrap:anywhere;min-width:0}
+.cmp-v.orig{color:var(--red);text-decoration:line-through;text-decoration-thickness:1.5px}
+.cmp-v.new{color:var(--grid)}
+
+.ev{display:grid;gap:.4rem;padding-top:.7rem;border-top:1px solid var(--line)}
+.ev p{margin:0;font-size:14px;line-height:1.7}
+.ev-k{font-size:12px;font-weight:600;letter-spacing:.06em;color:var(--muted);margin-right:.5rem}
+details{font-size:13px;color:var(--muted)}
+summary{cursor:pointer;width:fit-content}
+details p{margin:.35rem 0 0;color:var(--warn);background:var(--warn-soft);padding:.5rem .7rem;border-radius:6px}
+
+.empty{padding:2.5rem 1rem;text-align:center;color:var(--muted)}
+.foot{color:var(--muted);font-size:13px;padding-block:1rem;border-top:1px solid var(--line);margin-top:.5rem}
+.foot p{margin:0 0 .4rem;max-width:42rem}
+
+.lb{position:fixed;inset:0;z-index:20;background:var(--scrim);display:grid;place-items:center;cursor:zoom-out;
+  padding:calc(env(safe-area-inset-top,0px) + 3.25rem) max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 1rem) max(16px,env(safe-area-inset-left,0px))}
+.lb img{max-width:100%;max-height:100%;border-radius:8px}
+.lb-x{position:absolute;top:calc(env(safe-area-inset-top,0px) + .75rem);right:max(16px,env(safe-area-inset-right,0px));
+  font:inherit;font-size:14px;padding:.4rem 1rem;border-radius:999px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);cursor:pointer}
+
+@media (pointer:coarse){.tab{padding:.45rem .9rem}.chip{padding:.32rem .75rem}}
+@media (max-width:560px){
+  .masthead{padding-block:1.25rem .75rem}
+  .card{padding:.9rem .9rem 1rem}
+  .cmp-row{grid-template-columns:4.8em 1fr}
+}
+</style>
+
+<header class="wrap masthead">
+  <h1><span class="h1-a">真题答案</span><span class="h1-b">勘误</span></h1>
+  <p class="lede" id="lede"></p>
+</header>
+
+<div class="bar">
+  <div class="wrap bar-in">
+    <nav class="tabs" id="tabs" aria-label="按核查结论查看"></nav>
+    <div class="chips" id="sets" role="group" aria-label="按套卷筛选"></div>
+  </div>
+</div>
+
+<section class="wrap intro" id="intro"></section>
+<main class="wrap list" id="list"></main>
+
+<footer class="wrap foot">
+  <p>原则：答案以原始答案文件为准。题库 405 道真题的答案都已与答案文件逐题核对，只有本页列出的情况需要说明。</p>
+  <p>此前版本列出的“应为”答案来自模型推断，经抽查不准确，已全部撤回。</p>
+</footer>
+
+<div class="lb" id="lb" hidden><button type="button" class="lb-x" id="lbX">关闭</button><img id="lbImg" alt=""></div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(() => {
+  const DATA = JSON.parse(document.getElementById('data').textContent);
+  const ITEMS = DATA.items;
+  const TYPE = {pinyin:'拼音写字', word_fill:'选字补词', idiom_fill:'成语填空', idiom_pick:'挑字成语', idiom_from_text:'文言成语',
+    char_meaning:'字义', glyph:'古文字', poem_fill:'诗句填空', poem_link:'诗句连线', quote_context:'情境名句',
+    word_usage:'字词辨析', culture:'文化常识', other:'其他'};
+  const GROUPS = [
+    {g:'conflict', label:'文档答案与卷面对不上', intro:'答案文件里的字母和文字矛盾，已确认按文字取答案。'},
+    {g:'guess', label:'文档注明答案靠猜', intro:'答案文件自己注明这一段答案“基本是蒙的”。题库仍按答案文件取答案，练习时请知悉。'},
+  ];
+  const CONF = {high:'把握高', medium:'把握中', low:'把握低'};
+  const HANDLE = {'保留':'保留原答案', '改答案':'建议改答案', '标注争议':'标注争议', '建议剔除':'建议剔除', '修正题面':'修正题面'};
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
+  const arr = a => a == null ? [] : [].concat(a);
+  const fmt = a => Array.isArray(a) ? a.join(' / ') : String(a ?? '—');
+
+  const view = {g: 'conflict', set: ''};
+  const count = (g, s) => ITEMS.filter(x => (!g || x.group === g) && (!s || x.set === s)).length;
+
+  function optsHTML(x) {
+    const opts = x.format === 'judge' ? [{key:'√', text:'对'}, {key:'×', text:'错'}] : (x.options || []);
+    const k = arr(x.key);
+    return '<div class="opts">' + opts.map(o => {
+      const a = k.includes(o.key);
+      return `<div class="opt${a ? ' both' : ''}"><b>${esc(o.key)}</b><span class="opt-t">${esc(o.text)}</span>${a ? '<span class="mk">文档答案</span>' : ''}</div>`;
+    }).join('') + '</div>';
+  }
+  function cmpHTML(x) {
+    return `<div class="cmp"><div class="cmp-row"><span class="cmp-k">文档答案</span><span class="cmp-v new">${esc(x.key_full || fmt(x.key))}</span></div></div>`;
+  }
+  function cardHTML(x) {
+    const stem = esc(x.stem).split('___').join('<span class="blank"></span>');
+    let h = `<article class="card g-${x.group}">` +
+      `<header class="c-h"><span class="c-no">${esc(x.set_short)} · ${esc(x.sec)}${x.no}</span>` +
+      `<span class="tag">${esc(TYPE[x.type] || x.type)}</span>` +
+      `<span class="c-src">第 ${x.seq} 题${x.page ? ' · 原卷第 ' + x.page + ' 页' : ''}</span></header>`;
+    if (x.pinyin) h += `<div class="py">${esc(x.pinyin)}</div>`;
+    if (!x.pinyin || x.stem !== x.pinyin) h += `<p class="stem">${stem}</p>`;
+    (x.images || []).forEach(src => { h += `<figure class="fig"><img src="${esc(src)}" alt="${esc(x.set_short)}第 ${x.seq} 题原卷截图" loading="lazy" data-zoom></figure>`; });
+    h += (x.format === 'choice' || x.format === 'judge') ? optsHTML(x) : cmpHTML(x);
+    h += '<div class="ev">';
+    if (x.doc_text) h += `<p><span class="ev-k">答案文件原文</span>${esc(x.doc_text)}</p>`;
+    if (x.note) h += `<p><span class="ev-k">说明</span>${esc(x.note)}</p>`;
+    return h + '</div></article>';
+  }
+
+  function render() {
+    const total = ITEMS.length;
+    $('lede').innerHTML = `第七届、第八届市赛和 2025 区赛共 405 题，答案都<b>以原始答案文件为准</b>，并已逐题核对。` +
+      `下面列出答案文件本身需要说明的 <b>${ITEMS.length}</b> 题。`;
+    $('tabs').innerHTML = GROUPS.map(G => `<a class="tab${view.g === G.g ? ' on' : ''}" data-g="${G.g}" href="#${G.g}"${view.g === G.g ? ' aria-current="page"' : ''}>` +
+      `<span class="dot" aria-hidden="true"></span>${G.label}<span class="tab-n">${count(G.g, view.set)}</span></a>`).join('');
+    const sets = [{id:'', short:'全部套卷'}, ...DATA.sets];
+    $('sets').innerHTML = sets.map(s => `<button type="button" class="chip" data-set="${s.id}" aria-pressed="${view.set === s.id}">${esc(s.short)}<span>${count(view.g, s.id)}</span></button>`).join('');
+    const G = GROUPS.find(x => x.g === view.g);
+    $('intro').innerHTML = `<p>${esc(G.intro)}</p>`;
+    const rows = ITEMS.filter(x => x.group === view.g && (!view.set || x.set === view.set));
+    $('list').innerHTML = rows.length ? rows.map(cardHTML).join('') : '<p class="empty">这一组在当前套卷里没有题目。</p>';
+  }
+  function applyHash() {
+    const h = location.hash.slice(1);
+    view.g = GROUPS.some(G => G.g === h) ? h : 'conflict';
+    render();
+  }
+  window.addEventListener('hashchange', () => { applyHash(); window.scrollTo({top: 0}); });
+  $('sets').addEventListener('click', e => {
+    const b = e.target.closest('button[data-set]');
+    if (!b) return;
+    view.set = b.dataset.set;
+    render();
+  });
+  const lb = $('lb'), lbImg = $('lbImg');
+  $('list').addEventListener('click', e => {
+    const img = e.target.closest('img[data-zoom]');
+    if (!img) return;
+    lbImg.src = img.currentSrc || img.src; lbImg.alt = img.alt; lb.hidden = false; $('lbX').focus();
+  });
+  lb.addEventListener('click', () => { lb.hidden = true; lbImg.removeAttribute('src'); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !lb.hidden) { lb.hidden = true; lbImg.removeAttribute('src'); } });
+  applyHash();
+})();
+</script>

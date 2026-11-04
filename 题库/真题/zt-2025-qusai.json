@@ -1,0 +1,2512 @@
+{
+  "id": "zt-2025-qusai",
+  "title": "2025汉字小达人区赛真题",
+  "group": "真题",
+  "level": "区赛",
+  "year": 2025,
+  "date": null,
+  "sources": [
+    "data/2025汉字小达人区赛真题与解析/汉字小达人2025年区赛真题.pdf",
+    "data/2025汉字小达人区赛真题与解析/汉字小达人区赛真题答案【解析版】.pdf"
+  ],
+  "notes": "据卷首“知识点拨”：参与方式分为校内选拔与自由报名两种。校内选拔通道三、四、五年级题目数量不同，试卷中会标注“四、五年级学生必做题”及“五年级学生必做题”，低年级可以做高年级题目，答对加分；另外设有附加题，答对加分。自由报名通道共 100 题，每题 1 分，共计 100 分。题目考察汉字基础、成语识记、国学常识、古诗文背诵及理解等。（本卷一至四大题共 100 题，另有附加题 5 题；答案文件标题作“区赛模拟解析”。）",
+  "sections": [
+    {
+      "no": 1,
+      "title": "一、汉语拼音是认识汉字的工具。请根据以下拼音写出正确的汉字。（每小题 1 分）",
+      "type": "pinyin",
+      "format": "fill"
+    },
+    {
+      "no": 2,
+      "title": "二、成语是经过漫长岁月锤炼而成的固定短语，蕴含着丰富的中华优秀传统文化。请将下列成语填写完整。（每题 1 分）",
+      "type": "idiom_fill",
+      "format": "fill"
+    },
+    {
+      "no": 3,
+      "title": "三、学习经典诗文，传承中华优秀传统文化。请把下列诗句填写完整。（每题 1 分）",
+      "type": "poem_fill",
+      "format": "fill"
+    },
+    {
+      "no": 4,
+      "title": "四、请根据你所学的汉字知识，选择正确的选项。（每题 1 分）",
+      "type": "word_fill",
+      "format": "choice"
+    },
+    {
+      "no": 5,
+      "title": "附加题：你对汉字和国学常识了解多少？请对下列题目进行正误判断，正确的打“√”，错误的打“×”。（每题 1 分）",
+      "type": "culture",
+      "format": "judge"
+    }
+  ],
+  "questions": [
+    {
+      "id": "zt-2025-qusai-001",
+      "seq": 1,
+      "section": 1,
+      "no": 1,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "péng zhàng",
+      "pinyin": "péng zhàng",
+      "options": null,
+      "answer": "膨胀",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-002",
+      "seq": 2,
+      "section": 1,
+      "no": 2,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "qīn qi",
+      "pinyin": "qīn qi",
+      "options": null,
+      "answer": "亲戚",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-003",
+      "seq": 3,
+      "section": 1,
+      "no": 3,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "cuī cù",
+      "pinyin": "cuī cù",
+      "options": null,
+      "answer": "催促",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-004",
+      "seq": 4,
+      "section": 1,
+      "no": 4,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "jiǎn huà",
+      "pinyin": "jiǎn huà",
+      "options": null,
+      "answer": "简化",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-005",
+      "seq": 5,
+      "section": 1,
+      "no": 5,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "hēi bu liū qiū",
+      "pinyin": "hēi bu liū qiū",
+      "options": null,
+      "answer": "黑不溜秋",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-006",
+      "seq": 6,
+      "section": 1,
+      "no": 6,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "guān mó",
+      "pinyin": "guān mó",
+      "options": null,
+      "answer": "观摩",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-007",
+      "seq": 7,
+      "section": 1,
+      "no": 7,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "jú huáng",
+      "pinyin": "jú huáng",
+      "options": null,
+      "answer": "橘黄",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-008",
+      "seq": 8,
+      "section": 1,
+      "no": 8,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "huǒ shāo yún",
+      "pinyin": "huǒ shāo yún",
+      "options": null,
+      "answer": "火烧云",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-009",
+      "seq": 9,
+      "section": 1,
+      "no": 9,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "dǎo luàn",
+      "pinyin": "dǎo luàn",
+      "options": null,
+      "answer": "捣乱",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-010",
+      "seq": 10,
+      "section": 1,
+      "no": 10,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "jié shēn zì hào",
+      "pinyin": "jié shēn zì hào",
+      "options": null,
+      "answer": "洁身自好",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-011",
+      "seq": 11,
+      "section": 1,
+      "no": 11,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "féi shuò",
+      "pinyin": "féi shuò",
+      "options": null,
+      "answer": "肥硕",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-012",
+      "seq": 12,
+      "section": 1,
+      "no": 12,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "chōu chá",
+      "pinyin": "chōu chá",
+      "options": null,
+      "answer": "抽查",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-013",
+      "seq": 13,
+      "section": 1,
+      "no": 13,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "huà juàn",
+      "pinyin": "huà juàn",
+      "options": null,
+      "answer": "画卷",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-014",
+      "seq": 14,
+      "section": 1,
+      "no": 14,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "nuǎn hōng hōng",
+      "pinyin": "nuǎn hōng hōng",
+      "options": null,
+      "answer": "暖烘烘",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-015",
+      "seq": 15,
+      "section": 1,
+      "no": 15,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "bǎi chǐ gān tóu",
+      "pinyin": "bǎi chǐ gān tóu",
+      "options": null,
+      "answer": "百尺竿头",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-016",
+      "seq": 16,
+      "section": 1,
+      "no": 16,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "kāi pì",
+      "pinyin": "kāi pì",
+      "options": null,
+      "answer": "开辟",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-017",
+      "seq": 17,
+      "section": 1,
+      "no": 17,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "bān wén",
+      "pinyin": "bān wén",
+      "options": null,
+      "answer": "斑纹",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-018",
+      "seq": 18,
+      "section": 1,
+      "no": 18,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "yà rè dài",
+      "pinyin": "yà rè dài",
+      "options": null,
+      "answer": "亚热带",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-019",
+      "seq": 19,
+      "section": 1,
+      "no": 19,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "fěng cì",
+      "pinyin": "fěng cì",
+      "options": null,
+      "answer": "讽刺",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-020",
+      "seq": 20,
+      "section": 1,
+      "no": 20,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "gē ge dā dā",
+      "pinyin": "gē ge dā dā",
+      "options": null,
+      "answer": "疙疙瘩瘩",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-021",
+      "seq": 21,
+      "section": 1,
+      "no": 21,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "jì xiàng",
+      "pinyin": "jì xiàng",
+      "options": null,
+      "answer": "迹象",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-022",
+      "seq": 22,
+      "section": 1,
+      "no": 22,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "hòu wàng",
+      "pinyin": "hòu wàng",
+      "options": null,
+      "answer": "厚望",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-023",
+      "seq": 23,
+      "section": 1,
+      "no": 23,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "fēi hóng",
+      "pinyin": "fēi hóng",
+      "options": null,
+      "answer": "绯红",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-024",
+      "seq": 24,
+      "section": 1,
+      "no": 24,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "jiàn zài xián shàng",
+      "pinyin": "jiàn zài xián shàng",
+      "options": null,
+      "answer": "箭在弦上",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-025",
+      "seq": 25,
+      "section": 1,
+      "no": 25,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "gān bài xià fēng",
+      "pinyin": "gān bài xià fēng",
+      "options": null,
+      "answer": "甘拜下风",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-026",
+      "seq": 26,
+      "section": 1,
+      "no": 26,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "yùn cáng",
+      "pinyin": "yùn cáng",
+      "options": null,
+      "answer": "蕴藏",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-027",
+      "seq": 27,
+      "section": 1,
+      "no": 27,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "duò jiǎo",
+      "pinyin": "duò jiǎo",
+      "options": null,
+      "answer": "跺脚",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-028",
+      "seq": 28,
+      "section": 1,
+      "no": 28,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "zhāo huī",
+      "pinyin": "zhāo huī",
+      "options": null,
+      "answer": "朝晖",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-029",
+      "seq": 29,
+      "section": 1,
+      "no": 29,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "cáng wū nà gòu",
+      "pinyin": "cáng wū nà gòu",
+      "options": null,
+      "answer": "藏污纳垢",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-030",
+      "seq": 30,
+      "section": 1,
+      "no": 30,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "jí yè chéng qiú",
+      "pinyin": "jí yè chéng qiú",
+      "options": null,
+      "answer": "集腋成裘",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 1,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-031",
+      "seq": 31,
+      "section": 2,
+      "no": 1,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "___墙铁壁",
+      "pinyin": null,
+      "options": null,
+      "answer": "铜",
+      "answer_full": "铜墙铁壁",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-032",
+      "seq": 32,
+      "section": 2,
+      "no": 2,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "礼___下士",
+      "pinyin": null,
+      "options": null,
+      "answer": "贤",
+      "answer_full": "礼贤下士",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-033",
+      "seq": 33,
+      "section": 2,
+      "no": 3,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "马不停___",
+      "pinyin": null,
+      "options": null,
+      "answer": "蹄",
+      "answer_full": "马不停蹄",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-034",
+      "seq": 34,
+      "section": 2,
+      "no": 4,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "分庭___礼",
+      "pinyin": null,
+      "options": null,
+      "answer": "抗",
+      "answer_full": "分庭抗礼",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-035",
+      "seq": 35,
+      "section": 2,
+      "no": 5,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "日___西山",
+      "pinyin": null,
+      "options": null,
+      "answer": "薄",
+      "answer_full": "日薄西山",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-036",
+      "seq": 36,
+      "section": 2,
+      "no": 6,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "微不足___",
+      "pinyin": null,
+      "options": null,
+      "answer": "道",
+      "answer_full": "微不足道",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-037",
+      "seq": 37,
+      "section": 2,
+      "no": 7,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "大相___庭",
+      "pinyin": null,
+      "options": null,
+      "answer": "径",
+      "answer_full": "大相径庭",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-038",
+      "seq": 38,
+      "section": 2,
+      "no": 8,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "___里看花",
+      "pinyin": null,
+      "options": null,
+      "answer": "雾",
+      "answer_full": "雾里看花",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-039",
+      "seq": 39,
+      "section": 2,
+      "no": 9,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "先发___人",
+      "pinyin": null,
+      "options": null,
+      "answer": "制",
+      "answer_full": "先发制人",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-040",
+      "seq": 40,
+      "section": 2,
+      "no": 10,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "___床架屋",
+      "pinyin": null,
+      "options": null,
+      "answer": "叠",
+      "answer_full": "叠床架屋",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-041",
+      "seq": 41,
+      "section": 2,
+      "no": 11,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "___而远之",
+      "pinyin": null,
+      "options": null,
+      "answer": "敬",
+      "answer_full": "敬而远之",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-042",
+      "seq": 42,
+      "section": 2,
+      "no": 12,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "毛___自荐",
+      "pinyin": null,
+      "options": null,
+      "answer": "遂",
+      "answer_full": "毛遂自荐",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-043",
+      "seq": 43,
+      "section": 2,
+      "no": 13,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "延年___寿",
+      "pinyin": null,
+      "options": null,
+      "answer": "益",
+      "answer_full": "延年益寿",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-044",
+      "seq": 44,
+      "section": 2,
+      "no": 14,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "茫无头___",
+      "pinyin": null,
+      "options": null,
+      "answer": "绪",
+      "answer_full": "茫无头绪",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-045",
+      "seq": 45,
+      "section": 2,
+      "no": 15,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "啼笑___非",
+      "pinyin": null,
+      "options": null,
+      "answer": "皆",
+      "answer_full": "啼笑皆非",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-046",
+      "seq": 46,
+      "section": 2,
+      "no": 16,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "旗___相当",
+      "pinyin": null,
+      "options": null,
+      "answer": "鼓",
+      "answer_full": "旗鼓相当",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-047",
+      "seq": 47,
+      "section": 2,
+      "no": 17,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "童言无___",
+      "pinyin": null,
+      "options": null,
+      "answer": "忌",
+      "answer_full": "童言无忌",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-048",
+      "seq": 48,
+      "section": 2,
+      "no": 18,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "高风___节",
+      "pinyin": null,
+      "options": null,
+      "answer": "亮",
+      "answer_full": "高风亮节",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-049",
+      "seq": 49,
+      "section": 2,
+      "no": 19,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "___程万里",
+      "pinyin": null,
+      "options": null,
+      "answer": "鹏",
+      "answer_full": "鹏程万里",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-050",
+      "seq": 50,
+      "section": 2,
+      "no": 20,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "后起之___",
+      "pinyin": null,
+      "options": null,
+      "answer": "秀",
+      "answer_full": "后起之秀",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-051",
+      "seq": 51,
+      "section": 2,
+      "no": 21,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "别开___面",
+      "pinyin": null,
+      "options": null,
+      "answer": "生",
+      "answer_full": "别开生面",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-052",
+      "seq": 52,
+      "section": 2,
+      "no": 22,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "口___腹剑",
+      "pinyin": null,
+      "options": null,
+      "answer": "蜜",
+      "answer_full": "口蜜腹剑",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-053",
+      "seq": 53,
+      "section": 2,
+      "no": 23,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "危如累___",
+      "pinyin": null,
+      "options": null,
+      "answer": "卵",
+      "answer_full": "危如累卵",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-054",
+      "seq": 54,
+      "section": 2,
+      "no": 24,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "得___望蜀",
+      "pinyin": null,
+      "options": null,
+      "answer": "陇",
+      "answer_full": "得陇望蜀",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-055",
+      "seq": 55,
+      "section": 2,
+      "no": 25,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "兔死狗___",
+      "pinyin": null,
+      "options": null,
+      "answer": "烹",
+      "answer_full": "兔死狗烹",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-056",
+      "seq": 56,
+      "section": 2,
+      "no": 26,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "___丁解牛",
+      "pinyin": null,
+      "options": null,
+      "answer": "庖",
+      "answer_full": "庖丁解牛",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-057",
+      "seq": 57,
+      "section": 2,
+      "no": 27,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "尔虞我___",
+      "pinyin": null,
+      "options": null,
+      "answer": "诈",
+      "answer_full": "尔虞我诈",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-058",
+      "seq": 58,
+      "section": 2,
+      "no": 28,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "___光养晦",
+      "pinyin": null,
+      "options": null,
+      "answer": "韬",
+      "answer_full": "韬光养晦",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-059",
+      "seq": 59,
+      "section": 2,
+      "no": 29,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "行___就木",
+      "pinyin": null,
+      "options": null,
+      "answer": "将",
+      "answer_full": "行将就木",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-060",
+      "seq": 60,
+      "section": 2,
+      "no": 30,
+      "type": "idiom_fill",
+      "format": "fill",
+      "stem": "图穷匕___",
+      "pinyin": null,
+      "options": null,
+      "answer": "见",
+      "answer_full": "图穷匕见",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-061",
+      "seq": 61,
+      "section": 3,
+      "no": 1,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "草满___水满陂，山衔___浸寒漪。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "池塘",
+        "落日"
+      ],
+      "answer_full": "草满池塘水满陂，山衔落日浸寒漪。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-062",
+      "seq": 62,
+      "section": 3,
+      "no": 2,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___水复疑无路，柳暗___又一村。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "山重",
+        "花明"
+      ],
+      "answer_full": "山重水复疑无路，柳暗花明又一村。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-063",
+      "seq": 63,
+      "section": 3,
+      "no": 3,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___村边合，___郭外斜。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "绿树",
+        "青山"
+      ],
+      "answer_full": "绿树村边合，青山郭外斜。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-064",
+      "seq": 64,
+      "section": 3,
+      "no": 4,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "洛阳亲友___，一片___在玉壶。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "如相问",
+        "冰心"
+      ],
+      "answer_full": "洛阳亲友如相问，一片冰心在玉壶。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-065",
+      "seq": 65,
+      "section": 3,
+      "no": 5,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "露从___，月是___。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "今夜白",
+        "故乡明"
+      ],
+      "answer_full": "露从今夜白，月是故乡明。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-066",
+      "seq": 66,
+      "section": 3,
+      "no": 6,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___无声惜细流，___照水爱晴柔。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "泉眼",
+        "树阴"
+      ],
+      "answer_full": "泉眼无声惜细流，树阴照水爱晴柔。",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-067",
+      "seq": 67,
+      "section": 3,
+      "no": 7,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "一道___铺水中，半江瑟瑟___。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "残阳",
+        "半江红"
+      ],
+      "answer_full": "一道残阳铺水中，半江瑟瑟半江红。",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-068",
+      "seq": 68,
+      "section": 3,
+      "no": 8,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___一簇开无主，可爱___爱浅红？",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "桃花",
+        "深红"
+      ],
+      "answer_full": "桃花一簇开无主，可爱深红爱浅红？",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-069",
+      "seq": 69,
+      "section": 3,
+      "no": 9,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "柴门___，风雪___。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "闻犬吠",
+        "夜归人"
+      ],
+      "answer_full": "柴门闻犬吠，风雪夜归人。",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-070",
+      "seq": 70,
+      "section": 3,
+      "no": 10,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "不要人夸___，只留清气___。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "好颜色",
+        "满乾坤"
+      ],
+      "answer_full": "不要人夸好颜色，只留清气满乾坤。",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-071",
+      "seq": 71,
+      "section": 3,
+      "no": 11,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "秋丛___似陶家，遍绕篱边___。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "绕舍",
+        "日渐斜"
+      ],
+      "answer_full": "秋丛绕舍似陶家，遍绕篱边日渐斜。",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-072",
+      "seq": 72,
+      "section": 3,
+      "no": 12,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___却入海门去，卷起___似雪堆。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "须臾",
+        "沙堆"
+      ],
+      "answer_full": "须臾却入海门去，卷起沙堆似雪堆。",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-073",
+      "seq": 73,
+      "section": 3,
+      "no": 13,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "返景___，复照___。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "入深林",
+        "青苔上"
+      ],
+      "answer_full": "返景入深林，复照青苔上。",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-074",
+      "seq": 74,
+      "section": 3,
+      "no": 14,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___易老学难成，一寸___不可轻。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "少年",
+        "光阴"
+      ],
+      "answer_full": "少年易老学难成，一寸光阴不可轻。",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 2,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-075",
+      "seq": 75,
+      "section": 3,
+      "no": 15,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___一表真名世，千载谁堪___。",
+      "pinyin": null,
+      "options": null,
+      "answer": [
+        "出师",
+        "伯仲间"
+      ],
+      "answer_full": "出师一表真名世，千载谁堪伯仲间。",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-076",
+      "seq": 76,
+      "section": 4,
+      "no": 1,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "只要有勇气___开心扉，面对辽阔的大海，浓浓春意就会涌入你的胸怀。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "敞"
+        },
+        {
+          "key": "B",
+          "text": "倘"
+        },
+        {
+          "key": "C",
+          "text": "僘"
+        },
+        {
+          "key": "D",
+          "text": "徜"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "敞开",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-077",
+      "seq": 77,
+      "section": 4,
+      "no": 2,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "枣树上挂满了一颗颗红枣儿，风儿一吹，如同无数颗___瑙晃来晃去。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "马"
+        },
+        {
+          "key": "B",
+          "text": "码"
+        },
+        {
+          "key": "C",
+          "text": "玛"
+        },
+        {
+          "key": "D",
+          "text": "蚂"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "玛瑙",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-078",
+      "seq": 78,
+      "section": 4,
+      "no": 3,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "当你撑条小船穿___其间，那光景会使你怀疑是不是进了月亮婆婆的家。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "唆"
+        },
+        {
+          "key": "B",
+          "text": "梭"
+        },
+        {
+          "key": "C",
+          "text": "羧"
+        },
+        {
+          "key": "D",
+          "text": "㛖"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "穿梭",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-079",
+      "seq": 79,
+      "section": 4,
+      "no": 4,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "有一天在___杂的大厅里，我听到有人正在演奏莫扎特的奏鸣曲。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "曹"
+        },
+        {
+          "key": "B",
+          "text": "漕"
+        },
+        {
+          "key": "C",
+          "text": "嘈"
+        },
+        {
+          "key": "D",
+          "text": "槽"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "嘈杂",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-080",
+      "seq": 80,
+      "section": 4,
+      "no": 5,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "船的四周扎着各色的纸花，还有流苏从船舷垂挂下来，一直___到地上。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "托"
+        },
+        {
+          "key": "B",
+          "text": "脱"
+        },
+        {
+          "key": "C",
+          "text": "拓"
+        },
+        {
+          "key": "D",
+          "text": "拖"
+        }
+      ],
+      "answer": "D",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-081",
+      "seq": 81,
+      "section": 4,
+      "no": 6,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "他生性开朗豁达，激情洋溢，又天真可___。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "拘"
+        },
+        {
+          "key": "B",
+          "text": "掬"
+        },
+        {
+          "key": "C",
+          "text": "拒"
+        },
+        {
+          "key": "D",
+          "text": "据"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "可掬",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-082",
+      "seq": 82,
+      "section": 4,
+      "no": 7,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "它们个个目光炯炯，双唇紧闭，神态严___，好像一场大战就在眼前。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "峻"
+        },
+        {
+          "key": "B",
+          "text": "俊"
+        },
+        {
+          "key": "C",
+          "text": "骏"
+        },
+        {
+          "key": "D",
+          "text": "竣"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "严峻",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-083",
+      "seq": 83,
+      "section": 4,
+      "no": 8,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "她从一堆石子中捡起一颗，轻轻递到孩子手中，安___地微笑着。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "祥"
+        },
+        {
+          "key": "B",
+          "text": "翔"
+        },
+        {
+          "key": "C",
+          "text": "详"
+        },
+        {
+          "key": "D",
+          "text": "羏"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "安详",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-084",
+      "seq": 84,
+      "section": 4,
+      "no": 9,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "在村头有个苗圃，绿绿的一片，让长途___涉的我们略感一丝凉意。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "拔"
+        },
+        {
+          "key": "B",
+          "text": "跋"
+        },
+        {
+          "key": "C",
+          "text": "妭"
+        },
+        {
+          "key": "D",
+          "text": "鲅"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "跋涉",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-085",
+      "seq": 85,
+      "section": 4,
+      "no": 10,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "轮船开得飞快，一会儿就出了城，展现在他们面前的是___华的别墅。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "毫"
+        },
+        {
+          "key": "B",
+          "text": "嚎"
+        },
+        {
+          "key": "C",
+          "text": "壕"
+        },
+        {
+          "key": "D",
+          "text": "豪"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "豪华",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-086",
+      "seq": 86,
+      "section": 4,
+      "no": 11,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "两只老鹰仍静静地___立在沙滩上，希望能捕捉到落单的幼龟。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "伫"
+        },
+        {
+          "key": "B",
+          "text": "驻"
+        },
+        {
+          "key": "C",
+          "text": "贮"
+        },
+        {
+          "key": "D",
+          "text": "住"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "伫立",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-087",
+      "seq": 87,
+      "section": 4,
+      "no": 12,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___亮、悠扬、激越的笛声，在静静的甬道街荡漾着。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "撩"
+        },
+        {
+          "key": "B",
+          "text": "瞭"
+        },
+        {
+          "key": "C",
+          "text": "嘹"
+        },
+        {
+          "key": "D",
+          "text": "燎"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "嘹亮",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-088",
+      "seq": 88,
+      "section": 4,
+      "no": 13,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "骑兵俑上身着短甲，下身着紧口裤，足___马靴。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "登"
+        },
+        {
+          "key": "B",
+          "text": "蹬"
+        },
+        {
+          "key": "C",
+          "text": "噔"
+        },
+        {
+          "key": "D",
+          "text": "磴"
+        }
+      ],
+      "answer": "B",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-089",
+      "seq": 89,
+      "section": 4,
+      "no": 14,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "整个森林像着了火一样，绿色在___退，枯黄在蔓延。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "肖"
+        },
+        {
+          "key": "B",
+          "text": "逍"
+        },
+        {
+          "key": "C",
+          "text": "消"
+        },
+        {
+          "key": "D",
+          "text": "销"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "消退",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 3,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-090",
+      "seq": 90,
+      "section": 4,
+      "no": 15,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "等到发起冲___的时候，没有号声可不成呀！",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "峰"
+        },
+        {
+          "key": "B",
+          "text": "浲"
+        },
+        {
+          "key": "C",
+          "text": "烽"
+        },
+        {
+          "key": "D",
+          "text": "锋"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "冲锋",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-091",
+      "seq": 91,
+      "section": 4,
+      "no": 16,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "海水倒___上陆地，淹没了许多田地和村庄。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "罐"
+        },
+        {
+          "key": "B",
+          "text": "灌"
+        },
+        {
+          "key": "C",
+          "text": "爟"
+        },
+        {
+          "key": "D",
+          "text": "瓘"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "倒灌",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-092",
+      "seq": 92,
+      "section": 4,
+      "no": 17,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "皮鞋匠看看妹妹，月光正照在她那恬静的脸上，照着她___大的眼睛。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "争"
+        },
+        {
+          "key": "B",
+          "text": "挣"
+        },
+        {
+          "key": "C",
+          "text": "睁"
+        },
+        {
+          "key": "D",
+          "text": "铮"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "睁大",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-093",
+      "seq": 93,
+      "section": 4,
+      "no": 18,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "看，那是些___丽的白桦，树干是银白色的。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "俏"
+        },
+        {
+          "key": "B",
+          "text": "峭"
+        },
+        {
+          "key": "C",
+          "text": "诮"
+        },
+        {
+          "key": "D",
+          "text": "悄"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "俏丽",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-094",
+      "seq": 94,
+      "section": 4,
+      "no": 19,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "它教给鸡雏们啄食，___地，用土洗澡。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "倔"
+        },
+        {
+          "key": "B",
+          "text": "崛"
+        },
+        {
+          "key": "C",
+          "text": "堀"
+        },
+        {
+          "key": "D",
+          "text": "掘"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "掘地",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-095",
+      "seq": 95,
+      "section": 4,
+      "no": 20,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "两岸___郁的树木倒映水中，水清林绿，荡游其间，妩媚万分。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "匆"
+        },
+        {
+          "key": "B",
+          "text": "怱"
+        },
+        {
+          "key": "C",
+          "text": "葱"
+        },
+        {
+          "key": "D",
+          "text": "茐"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "葱郁",
+      "analysis": null,
+      "grade": "4-5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-096",
+      "seq": 96,
+      "section": 4,
+      "no": 21,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "清幽的月光，___在白白的石板上，仿佛涂上了一层银色。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "泻"
+        },
+        {
+          "key": "B",
+          "text": "泄"
+        },
+        {
+          "key": "C",
+          "text": "卸"
+        },
+        {
+          "key": "D",
+          "text": "懈"
+        }
+      ],
+      "answer": "A",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-097",
+      "seq": 97,
+      "section": 4,
+      "no": 22,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "在这千___一发之际，雅典军突然喊声震天，从两侧夹攻波斯军。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "均"
+        },
+        {
+          "key": "B",
+          "text": "钧"
+        },
+        {
+          "key": "C",
+          "text": "呁"
+        },
+        {
+          "key": "D",
+          "text": "汮"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "千钧一发",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-098",
+      "seq": 98,
+      "section": 4,
+      "no": 23,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "星星坠落时___起的火焰，把许家的篱笆都烧毁了。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "渐"
+        },
+        {
+          "key": "B",
+          "text": "湔"
+        },
+        {
+          "key": "C",
+          "text": "涧"
+        },
+        {
+          "key": "D",
+          "text": "溅"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "溅起",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-099",
+      "seq": 99,
+      "section": 4,
+      "no": 24,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "两只体态___然不同的母鸡在窝中产卵、孵小鸡，相容相安，互不侵犯。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "孑"
+        },
+        {
+          "key": "B",
+          "text": "截"
+        },
+        {
+          "key": "C",
+          "text": "杰"
+        },
+        {
+          "key": "D",
+          "text": "结"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "截然不同",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-100",
+      "seq": 100,
+      "section": 4,
+      "no": 25,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "这段音乐中有对身世坎坷的感叹，也有遭遇___折的伤悲。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "搓"
+        },
+        {
+          "key": "B",
+          "text": "措"
+        },
+        {
+          "key": "C",
+          "text": "挫"
+        },
+        {
+          "key": "D",
+          "text": "撮"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "挫折",
+      "analysis": null,
+      "grade": "5",
+      "images": [],
+      "source_page": 4,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-101",
+      "seq": 101,
+      "section": 5,
+      "no": 1,
+      "type": "culture",
+      "format": "judge",
+      "stem": "《石灰吟》中，点明石灰高尚品格的诗句是“要留清白在人间”。",
+      "pinyin": null,
+      "options": null,
+      "answer": "√",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "附加",
+      "images": [],
+      "source_page": 5,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-102",
+      "seq": 102,
+      "section": 5,
+      "no": 2,
+      "type": "culture",
+      "format": "judge",
+      "stem": "《诗经》是我国第一部诗歌总集，内容分为风、雅两部分。",
+      "pinyin": null,
+      "options": null,
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "《诗经》内容分为风、雅、颂三部分",
+      "grade": "附加",
+      "images": [],
+      "source_page": 5,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-103",
+      "seq": 103,
+      "section": 5,
+      "no": 3,
+      "type": "culture",
+      "format": "judge",
+      "stem": "《十五夜望月》描写的是重阳节的夜晚。",
+      "pinyin": null,
+      "options": null,
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "《十五夜望月》描写的是中秋节夜晚",
+      "grade": "附加",
+      "images": [],
+      "source_page": 5,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-104",
+      "seq": 104,
+      "section": 5,
+      "no": 4,
+      "type": "culture",
+      "format": "judge",
+      "stem": "“少壮不努力，老大徒伤悲”出自汉乐府《长歌行》。",
+      "pinyin": null,
+      "options": null,
+      "answer": "√",
+      "answer_full": null,
+      "analysis": null,
+      "grade": "附加",
+      "images": [],
+      "source_page": 5,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2025-qusai-105",
+      "seq": 105,
+      "section": 5,
+      "no": 5,
+      "type": "culture",
+      "format": "judge",
+      "stem": "书法中的落款指的是书法作品的签名。",
+      "pinyin": null,
+      "options": null,
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "书法落款不仅包括签名，还包括书写时间、地点、赠送对象等信息",
+      "grade": "附加",
+      "images": [],
+      "source_page": 5,
+      "flags": [],
+      "note": null
+    }
+  ]
+}

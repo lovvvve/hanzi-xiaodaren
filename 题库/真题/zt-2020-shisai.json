@@ -1,0 +1,4876 @@
+{
+  "id": "zt-2020-shisai",
+  "title": "第七届汉字小达人市级比赛真题",
+  "group": "真题",
+  "level": "市赛",
+  "year": 2020,
+  "date": "2020-11-19",
+  "sources": [
+    "data/市赛真题/05 第七届汉字小达人市级比赛真题.pdf",
+    "data/市赛真题/06 第七届汉字小达人市级比赛真题参考答案（同excel）.txt"
+  ],
+  "notes": "线上答题，2020-11-19 16:00–18:00 开放，答题时间 40 分钟（含填写个人信息），共 150 题，每题 1 分，总计 150 分；做完一题才能进入下一页，不能返回。原卷为答题网页截图，截图中选项的灰色阴影是复制时鼠标所在位置，不代表正确答案。参考答案文件注明答案仅供参考（尤其是甲骨文部分）。",
+  "sections": [
+    {
+      "no": 1,
+      "title": "一、请选择正确的选项，将下列词语填写完整。（每小题1分，共30题）",
+      "type": "word_fill",
+      "format": "choice"
+    },
+    {
+      "no": 2,
+      "title": "二、请根据题干要求选择。（每小题1分，共30题）",
+      "type": "word_usage",
+      "format": "choice"
+    },
+    {
+      "no": 3,
+      "title": "三、请选择正确的选项。（每小题1分，共25题）",
+      "type": "culture",
+      "format": "choice"
+    },
+    {
+      "no": 4,
+      "title": "四、判断题。（每小题1分，共10题）",
+      "type": "culture",
+      "format": "judge"
+    },
+    {
+      "no": 5,
+      "title": "五、词语溯源。（每小题1分，共10题）",
+      "type": "char_meaning",
+      "format": "choice"
+    },
+    {
+      "no": 6,
+      "title": "六、请根据给出的字形选出其对应的正确汉字。（每小题1分，共15题）",
+      "type": "glyph",
+      "format": "choice"
+    },
+    {
+      "no": 7,
+      "title": "七、请根据拼音写出正确的汉字。（每小题1分，共10题）",
+      "type": "pinyin",
+      "format": "fill"
+    },
+    {
+      "no": 8,
+      "title": "八、请从给出的七个字中挑出四字，组成一个成语。（每小题1分，共10题）",
+      "type": "idiom_pick",
+      "format": "fill"
+    },
+    {
+      "no": 9,
+      "title": "九、请将下列诗句填写完整。（每小题1分，共10题）",
+      "type": "poem_fill",
+      "format": "fill"
+    }
+  ],
+  "questions": [
+    {
+      "id": "zt-2020-shisai-001",
+      "seq": 1,
+      "section": 1,
+      "no": 1,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "他根本没听见周围___闹的声音，整个世界对他来说好像都消失了。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "喧"
+        },
+        {
+          "key": "B",
+          "text": "暄"
+        },
+        {
+          "key": "C",
+          "text": "宣"
+        },
+        {
+          "key": "D",
+          "text": "煊"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "喧闹",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 5,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-002",
+      "seq": 2,
+      "section": 1,
+      "no": 2,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___迫",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "挟"
+        },
+        {
+          "key": "B",
+          "text": "胁"
+        },
+        {
+          "key": "C",
+          "text": "携"
+        },
+        {
+          "key": "D",
+          "text": "协"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "胁迫",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 6,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-003",
+      "seq": 3,
+      "section": 1,
+      "no": 3,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "松___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "池"
+        },
+        {
+          "key": "B",
+          "text": "持"
+        },
+        {
+          "key": "C",
+          "text": "驰"
+        },
+        {
+          "key": "D",
+          "text": "弛"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "松弛",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 7,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-004",
+      "seq": 4,
+      "section": 1,
+      "no": 4,
+      "type": "idiom_fill",
+      "format": "choice",
+      "stem": "一___莫展",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "筹"
+        },
+        {
+          "key": "B",
+          "text": "仇"
+        },
+        {
+          "key": "C",
+          "text": "愁"
+        },
+        {
+          "key": "D",
+          "text": "酬"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "一筹莫展",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 8,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-005",
+      "seq": 5,
+      "section": 1,
+      "no": 5,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___杂",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "槽"
+        },
+        {
+          "key": "B",
+          "text": "嘈"
+        },
+        {
+          "key": "C",
+          "text": "曹"
+        },
+        {
+          "key": "D",
+          "text": "漕"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "嘈杂",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 9,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-006",
+      "seq": 6,
+      "section": 1,
+      "no": 6,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "惊___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "椇"
+        },
+        {
+          "key": "B",
+          "text": "惧"
+        },
+        {
+          "key": "C",
+          "text": "俱"
+        },
+        {
+          "key": "D",
+          "text": "具"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "惊惧",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 10,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-007",
+      "seq": 7,
+      "section": 1,
+      "no": 7,
+      "type": "idiom_fill",
+      "format": "choice",
+      "stem": "不___而走",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "胫"
+        },
+        {
+          "key": "B",
+          "text": "径"
+        },
+        {
+          "key": "C",
+          "text": "泾"
+        },
+        {
+          "key": "D",
+          "text": "经"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "不胫而走",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 11,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-008",
+      "seq": 8,
+      "section": 1,
+      "no": 8,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___发户",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "曝"
+        },
+        {
+          "key": "B",
+          "text": "瀑"
+        },
+        {
+          "key": "C",
+          "text": "爆"
+        },
+        {
+          "key": "D",
+          "text": "暴"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "暴发户",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 12,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-009",
+      "seq": 9,
+      "section": 1,
+      "no": 9,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "通___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "霄"
+        },
+        {
+          "key": "B",
+          "text": "消"
+        },
+        {
+          "key": "C",
+          "text": "肖"
+        },
+        {
+          "key": "D",
+          "text": "宵"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "通宵",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 13,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-010",
+      "seq": 10,
+      "section": 1,
+      "no": 10,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "分___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "岐"
+        },
+        {
+          "key": "B",
+          "text": "圻"
+        },
+        {
+          "key": "C",
+          "text": "崎"
+        },
+        {
+          "key": "D",
+          "text": "歧"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "分歧",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 14,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-011",
+      "seq": 11,
+      "section": 1,
+      "no": 11,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___乏",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "馈"
+        },
+        {
+          "key": "B",
+          "text": "篑"
+        },
+        {
+          "key": "C",
+          "text": "匮"
+        },
+        {
+          "key": "D",
+          "text": "溃"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "匮乏",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 15,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-012",
+      "seq": 12,
+      "section": 1,
+      "no": 12,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "发___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "泄"
+        },
+        {
+          "key": "B",
+          "text": "懈"
+        },
+        {
+          "key": "C",
+          "text": "卸"
+        },
+        {
+          "key": "D",
+          "text": "泻"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "发泄",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 16,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-013",
+      "seq": 13,
+      "section": 1,
+      "no": 13,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___拥在一起的小艇一会儿就散开了，消失在弯曲的河道中，远处传来一片欢笑声。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "簇"
+        },
+        {
+          "key": "B",
+          "text": "瘯"
+        },
+        {
+          "key": "C",
+          "text": "⿰石族"
+        },
+        {
+          "key": "D",
+          "text": "蔟"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "簇拥",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 17,
+      "flags": [
+        "text_uncertain"
+      ],
+      "note": "C 选项截图为石字旁加“族”，未能确认对应的 Unicode 字符，以 IDS“⿰石族”表示。"
+    },
+    {
+      "id": "zt-2020-shisai-014",
+      "seq": 14,
+      "section": 1,
+      "no": 14,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___簿",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "帐"
+        },
+        {
+          "key": "B",
+          "text": "胀"
+        },
+        {
+          "key": "C",
+          "text": "丈"
+        },
+        {
+          "key": "D",
+          "text": "账"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "账簿",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 18,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-015",
+      "seq": 15,
+      "section": 1,
+      "no": 15,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "告___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "戒"
+        },
+        {
+          "key": "B",
+          "text": "介"
+        },
+        {
+          "key": "C",
+          "text": "诫"
+        },
+        {
+          "key": "D",
+          "text": "届"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "告诫",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 19,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-016",
+      "seq": 16,
+      "section": 1,
+      "no": 16,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___盖",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "付"
+        },
+        {
+          "key": "B",
+          "text": "复"
+        },
+        {
+          "key": "C",
+          "text": "覆"
+        },
+        {
+          "key": "D",
+          "text": "负"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "覆盖",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 20,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-017",
+      "seq": 17,
+      "section": 1,
+      "no": 17,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "猴子摘下船长的帽子戴在自己的头上，很快地爬上了___杆。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "祪"
+        },
+        {
+          "key": "B",
+          "text": "垝"
+        },
+        {
+          "key": "C",
+          "text": "危"
+        },
+        {
+          "key": "D",
+          "text": "桅"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "桅杆",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 21,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-018",
+      "seq": 18,
+      "section": 1,
+      "no": 18,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "切___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "嵯"
+        },
+        {
+          "key": "B",
+          "text": "磋"
+        },
+        {
+          "key": "C",
+          "text": "搓"
+        },
+        {
+          "key": "D",
+          "text": "蹉"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "切磋",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 22,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-019",
+      "seq": 19,
+      "section": 1,
+      "no": 19,
+      "type": "idiom_fill",
+      "format": "choice",
+      "stem": "长___直入",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "趋"
+        },
+        {
+          "key": "B",
+          "text": "屈"
+        },
+        {
+          "key": "C",
+          "text": "驱"
+        },
+        {
+          "key": "D",
+          "text": "区"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "长驱直入",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 23,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-020",
+      "seq": 20,
+      "section": 1,
+      "no": 20,
+      "type": "idiom_fill",
+      "format": "choice",
+      "stem": "___心沥血",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "沤"
+        },
+        {
+          "key": "B",
+          "text": "怄"
+        },
+        {
+          "key": "C",
+          "text": "呕"
+        },
+        {
+          "key": "D",
+          "text": "讴"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "呕心沥血",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 24,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-021",
+      "seq": 21,
+      "section": 1,
+      "no": 21,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___断",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "觉"
+        },
+        {
+          "key": "B",
+          "text": "绝"
+        },
+        {
+          "key": "C",
+          "text": "诀"
+        },
+        {
+          "key": "D",
+          "text": "决"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "决断",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 25,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-022",
+      "seq": 22,
+      "section": 1,
+      "no": 22,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___论",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "辫"
+        },
+        {
+          "key": "B",
+          "text": "辨"
+        },
+        {
+          "key": "C",
+          "text": "辩"
+        },
+        {
+          "key": "D",
+          "text": "辦"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "辩论",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 26,
+      "flags": [
+        "text_uncertain"
+      ],
+      "note": "D 选项截图低清，中间部件似“力”，按“辦”转写，也可能是“辧”。"
+    },
+    {
+      "id": "zt-2020-shisai-023",
+      "seq": 23,
+      "section": 1,
+      "no": 23,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___扬",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "诵"
+        },
+        {
+          "key": "B",
+          "text": "讼"
+        },
+        {
+          "key": "C",
+          "text": "颂"
+        },
+        {
+          "key": "D",
+          "text": "宋"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "颂扬",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 27,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-024",
+      "seq": 24,
+      "section": 1,
+      "no": 24,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "宫___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "亭"
+        },
+        {
+          "key": "B",
+          "text": "庭"
+        },
+        {
+          "key": "C",
+          "text": "艇"
+        },
+        {
+          "key": "D",
+          "text": "廷"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "宫廷",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 28,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-025",
+      "seq": 25,
+      "section": 1,
+      "no": 25,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___奖",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "加"
+        },
+        {
+          "key": "B",
+          "text": "佳"
+        },
+        {
+          "key": "C",
+          "text": "家"
+        },
+        {
+          "key": "D",
+          "text": "嘉"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "嘉奖",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 29,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-026",
+      "seq": 26,
+      "section": 1,
+      "no": 26,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "追___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "塑"
+        },
+        {
+          "key": "B",
+          "text": "搠"
+        },
+        {
+          "key": "C",
+          "text": "溯"
+        },
+        {
+          "key": "D",
+          "text": "朔"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "追溯",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 30,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-027",
+      "seq": 27,
+      "section": 1,
+      "no": 27,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "按___",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "魔"
+        },
+        {
+          "key": "B",
+          "text": "麽"
+        },
+        {
+          "key": "C",
+          "text": "磨"
+        },
+        {
+          "key": "D",
+          "text": "摩"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "按摩",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 31,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-028",
+      "seq": 28,
+      "section": 1,
+      "no": 28,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "只见对方的守门员分腿弯腰，上身前倾，目光警___地注视着前方。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "惕"
+        },
+        {
+          "key": "B",
+          "text": "悌"
+        },
+        {
+          "key": "C",
+          "text": "缇"
+        },
+        {
+          "key": "D",
+          "text": "剔"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "警惕",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 32,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-029",
+      "seq": 29,
+      "section": 1,
+      "no": 29,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "尼罗河每年定期泛___，给河两岸带来肥沃的淤泥。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "烂"
+        },
+        {
+          "key": "B",
+          "text": "澜"
+        },
+        {
+          "key": "C",
+          "text": "阑"
+        },
+        {
+          "key": "D",
+          "text": "滥"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "泛滥",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 33,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-030",
+      "seq": 30,
+      "section": 1,
+      "no": 30,
+      "type": "word_fill",
+      "format": "choice",
+      "stem": "___贯",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "级"
+        },
+        {
+          "key": "B",
+          "text": "藉"
+        },
+        {
+          "key": "C",
+          "text": "及"
+        },
+        {
+          "key": "D",
+          "text": "籍"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "籍贯",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 34,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-031",
+      "seq": 31,
+      "section": 2,
+      "no": 1,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "身临奇境 热销"
+        },
+        {
+          "key": "B",
+          "text": "票据 蛟免三窟"
+        },
+        {
+          "key": "C",
+          "text": "山楂糕 删烦就简"
+        },
+        {
+          "key": "D",
+          "text": "囫仑吞枣 猛裂"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "囫仑吞枣 猛裂",
+      "analysis": "订正：囫囵吞枣 猛烈",
+      "grade": null,
+      "images": [],
+      "source_page": 35,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-032",
+      "seq": 32,
+      "section": 2,
+      "no": 2,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "伟大 鼎天立地"
+        },
+        {
+          "key": "B",
+          "text": "气势如虹 落枕"
+        },
+        {
+          "key": "C",
+          "text": "亲力亲为 迷语"
+        },
+        {
+          "key": "D",
+          "text": "气馁 游韧有余"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "气势如虹 落枕",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 36,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-033",
+      "seq": 33,
+      "section": 2,
+      "no": 3,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n在我这个小孩子眼中，大苇坑虽不能像洞庭湖那样有汽派，但也颇有烟波浩缈之势。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "2个",
+      "analysis": "错别字订正：气派、烟波浩渺",
+      "grade": null,
+      "images": [],
+      "source_page": 37,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-034",
+      "seq": 34,
+      "section": 2,
+      "no": 4,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "牛南 一尘不染"
+        },
+        {
+          "key": "B",
+          "text": "满意 克己奉功"
+        },
+        {
+          "key": "C",
+          "text": "秋高气爽 腊烛"
+        },
+        {
+          "key": "D",
+          "text": "付之一炬 东南亚"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "付之一炬 东南亚",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 38,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-035",
+      "seq": 35,
+      "section": 2,
+      "no": 5,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n在帆的上面，是漂动的白云和天空，在帆的下面，是温暖的船仓；在那里，生活不是疆硬的。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "3个",
+      "analysis": "错别字订正：飘动、船舱、僵硬",
+      "grade": null,
+      "images": [],
+      "source_page": 39,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-036",
+      "seq": 36,
+      "section": 2,
+      "no": 6,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n屋顶犹其难刷，沾了稀溜溜粉浆的刷子往上一举，谁能不掉一滴？",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "1个",
+      "analysis": "错别字订正：尤其",
+      "grade": null,
+      "images": [],
+      "source_page": 40,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-037",
+      "seq": 37,
+      "section": 2,
+      "no": 7,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "生搬硬套 倜倘"
+        },
+        {
+          "key": "B",
+          "text": "苦近甘来 库藏"
+        },
+        {
+          "key": "C",
+          "text": "屋檐 狂风大作"
+        },
+        {
+          "key": "D",
+          "text": "扬长而去 瘆透"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "屋檐 狂风大作",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 41,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-038",
+      "seq": 38,
+      "section": 2,
+      "no": 8,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "轻瞄淡写 沦陷"
+        },
+        {
+          "key": "B",
+          "text": "物归原主 山脊"
+        },
+        {
+          "key": "C",
+          "text": "爱屋急乌 三明治"
+        },
+        {
+          "key": "D",
+          "text": "蚍浮 似曾相识"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "物归原主 山脊",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 42,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-039",
+      "seq": 39,
+      "section": 2,
+      "no": 9,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n那一片迷人的金色，简直把你溶进一个神奇的境界，使你充满毫迈的感受和无边的暇想。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "3个",
+      "analysis": "错别字订正：融进、豪迈、遐想",
+      "grade": null,
+      "images": [],
+      "source_page": 43,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-040",
+      "seq": 40,
+      "section": 2,
+      "no": 10,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n我学会了滑翔，在街道上空，在白桦树捎头，在青青的草地和橙澈的湖面上盘璇。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "3个",
+      "analysis": "错别字订正：梢头、澄澈、盘旋",
+      "grade": null,
+      "images": [],
+      "source_page": 44,
+      "flags": [
+        "text_uncertain"
+      ],
+      "note": "句末“盘璇”的“璇”截图低清；答案把“盘旋”列为订正项，据此判断原文是错字“璇”。"
+    },
+    {
+      "id": "zt-2020-shisai-041",
+      "seq": 41,
+      "section": 2,
+      "no": 11,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n运河之中，装满奶桶的船只在疏缓平稳地行驶，满栽着一罐罐牛奶的火车，不停地开往城市。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "2个",
+      "analysis": "错别字订正：舒缓、满载",
+      "grade": null,
+      "images": [],
+      "source_page": 45,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-042",
+      "seq": 42,
+      "section": 2,
+      "no": 12,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "凋刻 兔死狐悲"
+        },
+        {
+          "key": "B",
+          "text": "麦杆 门可罗鹊"
+        },
+        {
+          "key": "C",
+          "text": "心伶手巧 窝里横"
+        },
+        {
+          "key": "D",
+          "text": "一麟半爪 吟咏"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "麦杆 门可罗鹊",
+      "analysis": "订正：麦秆 门可罗雀",
+      "grade": null,
+      "images": [],
+      "source_page": 46,
+      "flags": [
+        "text_uncertain"
+      ],
+      "note": "A 项“兔死狐悲”首字截图低清，难以确认是“兔”还是“免”；若是“免”，A 项也有两个错别字。"
+    },
+    {
+      "id": "zt-2020-shisai-043",
+      "seq": 43,
+      "section": 2,
+      "no": 13,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "导演 辟重就轻"
+        },
+        {
+          "key": "B",
+          "text": "梳理 忘呼所以"
+        },
+        {
+          "key": "C",
+          "text": "长吁短叹 苏洲"
+        },
+        {
+          "key": "D",
+          "text": "洗耳恭听 渴盼"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "洗耳恭听 渴盼",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 47,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-044",
+      "seq": 44,
+      "section": 2,
+      "no": 14,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "梦艺 昙花一现"
+        },
+        {
+          "key": "B",
+          "text": "风餐路宿 木偶戏"
+        },
+        {
+          "key": "C",
+          "text": "如坐针粘 茄子"
+        },
+        {
+          "key": "D",
+          "text": "逢隙 爱不适手"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "逢隙 爱不适手",
+      "analysis": "订正：缝隙 爱不释手",
+      "grade": null,
+      "images": [],
+      "source_page": 48,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-045",
+      "seq": 45,
+      "section": 2,
+      "no": 15,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "抑扬顿错 特警"
+        },
+        {
+          "key": "B",
+          "text": "缴械 噼里啪拉"
+        },
+        {
+          "key": "C",
+          "text": "闲瑕 洗心革面"
+        },
+        {
+          "key": "D",
+          "text": "全神惯注 卢苇"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "全神惯注 卢苇",
+      "analysis": "订正：全神贯注 芦苇",
+      "grade": null,
+      "images": [],
+      "source_page": 49,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-046",
+      "seq": 46,
+      "section": 2,
+      "no": 16,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "风景如画 红樱枪"
+        },
+        {
+          "key": "B",
+          "text": "抢构 答非所问"
+        },
+        {
+          "key": "C",
+          "text": "烟消云散 陡俏"
+        },
+        {
+          "key": "D",
+          "text": "惯例 山穷水尽"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "惯例 山穷水尽",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 50,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-047",
+      "seq": 47,
+      "section": 2,
+      "no": 17,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "爪果飘香 薪资"
+        },
+        {
+          "key": "B",
+          "text": "贻笑大方 中庸"
+        },
+        {
+          "key": "C",
+          "text": "引亢高歌 音质"
+        },
+        {
+          "key": "D",
+          "text": "遗憾 绿草如阴"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "贻笑大方 中庸",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 51,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-048",
+      "seq": 48,
+      "section": 2,
+      "no": 18,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n我们打开窗帘，望望竦立在两岸的古建筑，跟来往的船只打招呼，有说不完的情趣。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "1个",
+      "analysis": "错别字订正：耸立",
+      "grade": null,
+      "images": [],
+      "source_page": 52,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-049",
+      "seq": 49,
+      "section": 2,
+      "no": 19,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "目噔口呆 摞丝刀"
+        },
+        {
+          "key": "B",
+          "text": "青脆 自轻自贱"
+        },
+        {
+          "key": "C",
+          "text": "宛尔一笑 规矩"
+        },
+        {
+          "key": "D",
+          "text": "收获 至死不俞"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "目噔口呆 摞丝刀",
+      "analysis": "订正：目瞪口呆 螺丝刀",
+      "grade": null,
+      "images": [],
+      "source_page": 53,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-050",
+      "seq": 50,
+      "section": 2,
+      "no": 20,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "丞相 一鼓做气"
+        },
+        {
+          "key": "B",
+          "text": "掩耳盗铃 里财"
+        },
+        {
+          "key": "C",
+          "text": "呲牙咧嘴 蝌斗"
+        },
+        {
+          "key": "D",
+          "text": "口吻 兴至勃勃"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "呲牙咧嘴 蝌斗",
+      "analysis": "订正：龇牙咧嘴 蝌蚪",
+      "grade": null,
+      "images": [],
+      "source_page": 54,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-051",
+      "seq": 51,
+      "section": 2,
+      "no": 21,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "能工巧匠 加萌"
+        },
+        {
+          "key": "B",
+          "text": "栩栩如生 论锯"
+        },
+        {
+          "key": "C",
+          "text": "内留河 毛骨耸然"
+        },
+        {
+          "key": "D",
+          "text": "冷扳凳 从天而降"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "内留河 毛骨耸然",
+      "analysis": "订正：内流河 毛骨悚然",
+      "grade": null,
+      "images": [],
+      "source_page": 55,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-052",
+      "seq": 52,
+      "section": 2,
+      "no": 22,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "弘伟 浩月当空"
+        },
+        {
+          "key": "B",
+          "text": "光荫似箭 讲台"
+        },
+        {
+          "key": "C",
+          "text": "寸草不生 莲蓬"
+        },
+        {
+          "key": "D",
+          "text": "露陷儿 三长两短"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "寸草不生 莲蓬",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 56,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-053",
+      "seq": 53,
+      "section": 2,
+      "no": 23,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "览车 徒劳无工"
+        },
+        {
+          "key": "B",
+          "text": "屈打成召 升降机"
+        },
+        {
+          "key": "C",
+          "text": "水到渠成 廉刀"
+        },
+        {
+          "key": "D",
+          "text": "物资 投鼠嫉器"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "览车 徒劳无工",
+      "analysis": "订正：缆车 徒劳无功",
+      "grade": null,
+      "images": [],
+      "source_page": 57,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-054",
+      "seq": 54,
+      "section": 2,
+      "no": 24,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n那位大个子叔叔始终面带笑容，看的津津有味。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "1个",
+      "analysis": "错别字订正：看得",
+      "grade": null,
+      "images": [],
+      "source_page": 58,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-055",
+      "seq": 55,
+      "section": 2,
+      "no": 25,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "群册群力 沙袋"
+        },
+        {
+          "key": "B",
+          "text": "僧多粥少 士途"
+        },
+        {
+          "key": "C",
+          "text": "灌溉 金枝玉叶"
+        },
+        {
+          "key": "D",
+          "text": "唯他命 顾此失彼"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "灌溉 金枝玉叶",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 59,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-056",
+      "seq": 56,
+      "section": 2,
+      "no": 26,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n站在白色大理石铺的地上，眼里看到的是纯白的大理石，脚下睬的是纯白的大理石。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "1个",
+      "analysis": "错别字订正：脚踩",
+      "grade": null,
+      "images": [],
+      "source_page": 60,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-057",
+      "seq": 57,
+      "section": 2,
+      "no": 27,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下面这句话中有几个错别字？（ ）\n密蜂嗡嗡地飞着，满身戎毛，落到一朵花上，胖乎乎，圆滚滚，就像一个小毛球似地不动了。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "2个",
+      "analysis": "错别字订正：蜜蜂、绒毛",
+      "grade": null,
+      "images": [],
+      "source_page": 61,
+      "flags": [],
+      "note": "句中“似地”按现行规范应作“似的”，若计入则为 3 个；答案未计入，保留原答案 B。"
+    },
+    {
+      "id": "zt-2020-shisai-058",
+      "seq": 58,
+      "section": 2,
+      "no": 28,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中全部正确的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "触目惊心 苍芒"
+        },
+        {
+          "key": "B",
+          "text": "不择手段 水蒸汽"
+        },
+        {
+          "key": "C",
+          "text": "解语花 凌霜傲雪"
+        },
+        {
+          "key": "D",
+          "text": "强壮 势钧利敌"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "解语花 凌霜傲雪",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 62,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-059",
+      "seq": 59,
+      "section": 2,
+      "no": 29,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "精益求精 齿噬"
+        },
+        {
+          "key": "B",
+          "text": "前居后恭 松紧带"
+        },
+        {
+          "key": "C",
+          "text": "圣诞节 跃跃欲式"
+        },
+        {
+          "key": "D",
+          "text": "皮胗 穷兵渎武"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "皮胗 穷兵渎武",
+      "analysis": "订正：皮疹 穷兵黩武",
+      "grade": null,
+      "images": [],
+      "source_page": 63,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-060",
+      "seq": 60,
+      "section": 2,
+      "no": 30,
+      "type": "word_usage",
+      "format": "choice",
+      "stem": "下列选项中有两个错别字的是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "情不自禁 愤发"
+        },
+        {
+          "key": "B",
+          "text": "梦寐以求 训服"
+        },
+        {
+          "key": "C",
+          "text": "萃绿 鬼计多端"
+        },
+        {
+          "key": "D",
+          "text": "异样 消失怠尽"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "萃绿 鬼计多端",
+      "analysis": "订正：翠绿 诡计多端",
+      "grade": null,
+      "images": [],
+      "source_page": 64,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-061",
+      "seq": 61,
+      "section": 3,
+      "no": 1,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“东边日出西边雨”这个现象常在哪个季节会出现？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "冬天"
+        },
+        {
+          "key": "B",
+          "text": "秋天"
+        },
+        {
+          "key": "C",
+          "text": "春天"
+        },
+        {
+          "key": "D",
+          "text": "夏天"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "夏天",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 65,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-062",
+      "seq": 62,
+      "section": 3,
+      "no": 2,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“随风潜入夜，润物细无声”用的修辞手法是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "夸张"
+        },
+        {
+          "key": "B",
+          "text": "拟人"
+        },
+        {
+          "key": "C",
+          "text": "衬托"
+        },
+        {
+          "key": "D",
+          "text": "比喻"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "拟人",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 66,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-063",
+      "seq": 63,
+      "section": 3,
+      "no": 3,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“中庭地白树栖鸦，冷露无声湿桂花”渲染了诗人在哪个传统节日望月的特定景色？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "重阳节"
+        },
+        {
+          "key": "B",
+          "text": "寒食节"
+        },
+        {
+          "key": "C",
+          "text": "端午节"
+        },
+        {
+          "key": "D",
+          "text": "中秋节"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "中秋节",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 67,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-064",
+      "seq": 64,
+      "section": 3,
+      "no": 4,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“聒碎乡心梦不成，故园无此声”中的“故园”指的是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "西安"
+        },
+        {
+          "key": "B",
+          "text": "开封"
+        },
+        {
+          "key": "C",
+          "text": "南京"
+        },
+        {
+          "key": "D",
+          "text": "北京"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "北京",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 68,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-065",
+      "seq": 65,
+      "section": 3,
+      "no": 5,
+      "type": "culture",
+      "format": "choice",
+      "stem": "下面哪句诗出自吴均的《山中杂诗》？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "山际见来烟，竹中窥落日。"
+        },
+        {
+          "key": "B",
+          "text": "最爱湖东行不足，绿杨阴里白沙堤。"
+        },
+        {
+          "key": "C",
+          "text": "不解藏踪迹，浮萍一道开。"
+        },
+        {
+          "key": "D",
+          "text": "时时闻鸟语，处处是泉声。"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "山际见来烟，竹中窥落日。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 69,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-066",
+      "seq": 66,
+      "section": 3,
+      "no": 6,
+      "type": "culture",
+      "format": "choice",
+      "stem": "《颜勤礼碑》是哪位书法大家的代表作？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "欧阳修"
+        },
+        {
+          "key": "B",
+          "text": "赵孟頫"
+        },
+        {
+          "key": "C",
+          "text": "颜真卿"
+        },
+        {
+          "key": "D",
+          "text": "王羲之"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "颜真卿",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 70,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-067",
+      "seq": 67,
+      "section": 3,
+      "no": 7,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“碧玉妆成一树高，万条垂下绿丝绦”写的是当时几月的美景？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "三月"
+        },
+        {
+          "key": "B",
+          "text": "七月"
+        },
+        {
+          "key": "C",
+          "text": "二月"
+        },
+        {
+          "key": "D",
+          "text": "六月"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "二月",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 71,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-068",
+      "seq": 68,
+      "section": 3,
+      "no": 8,
+      "type": "poem_fill",
+      "format": "choice",
+      "stem": "“江上往来人，但爱___美”中的横线上填的是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "鳜鱼"
+        },
+        {
+          "key": "B",
+          "text": "鲤鱼"
+        },
+        {
+          "key": "C",
+          "text": "鲈鱼"
+        },
+        {
+          "key": "D",
+          "text": "鲫鱼"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "江上往来人，但爱鲈鱼美",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 72,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-069",
+      "seq": 69,
+      "section": 3,
+      "no": 9,
+      "type": "culture",
+      "format": "choice",
+      "stem": "张旭《桃花溪》中引用了哪个典故？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "柳宗元《小石潭记》"
+        },
+        {
+          "key": "B",
+          "text": "陶渊明《桃花源记》"
+        },
+        {
+          "key": "C",
+          "text": "范仲淹《岳阳楼记》"
+        },
+        {
+          "key": "D",
+          "text": "王勃《滕王阁序》"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "陶渊明《桃花源记》",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 73,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-070",
+      "seq": 70,
+      "section": 3,
+      "no": 10,
+      "type": "culture",
+      "format": "choice",
+      "stem": "《题临安邸》中的“临安”在今天的哪里？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "福州"
+        },
+        {
+          "key": "B",
+          "text": "苏州"
+        },
+        {
+          "key": "C",
+          "text": "常州"
+        },
+        {
+          "key": "D",
+          "text": "杭州"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "杭州",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 74,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-071",
+      "seq": 71,
+      "section": 3,
+      "no": 11,
+      "type": "culture",
+      "format": "choice",
+      "stem": "下列哪句诗是被赞为“诗中有画，画中有诗”的诗人写的？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "昼出耘田夜绩麻，村庄儿女各当家。"
+        },
+        {
+          "key": "B",
+          "text": "回看射雕处，千里暮云平。"
+        },
+        {
+          "key": "C",
+          "text": "东风不与周郎便，铜雀春深锁二乔。"
+        },
+        {
+          "key": "D",
+          "text": "欲穷千里目，更上一层楼。"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "回看射雕处，千里暮云平。",
+      "analysis": "王维",
+      "grade": null,
+      "images": [],
+      "source_page": 75,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-072",
+      "seq": 72,
+      "section": 3,
+      "no": 12,
+      "type": "culture",
+      "format": "choice",
+      "stem": "辛弃疾的《清平乐·村居》中，词人具体描写几个孩子的田园生活？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "4个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "2个"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "3个",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 76,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-073",
+      "seq": 73,
+      "section": 3,
+      "no": 13,
+      "type": "culture",
+      "format": "choice",
+      "stem": "下列诗句分别表现的季节是？（ ）\n六出飞花入户时，坐看青竹变琼枝。\n江碧鸟逾白，山青花欲燃。\n树阴满地日当午，梦觉流莺时一声。\n庭前落尽梧桐，水边开彻芙蓉。",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "冬夏春秋"
+        },
+        {
+          "key": "B",
+          "text": "春夏秋冬"
+        },
+        {
+          "key": "C",
+          "text": "春秋夏冬"
+        },
+        {
+          "key": "D",
+          "text": "冬春夏秋"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "冬春夏秋",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 77,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-074",
+      "seq": 74,
+      "section": 3,
+      "no": 14,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“白日放歌须纵酒，青春作伴好还乡”中的“青春”指的是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "春天"
+        },
+        {
+          "key": "B",
+          "text": "朋友"
+        },
+        {
+          "key": "C",
+          "text": "年轻"
+        },
+        {
+          "key": "D",
+          "text": "小草"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "春天",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 78,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-075",
+      "seq": 75,
+      "section": 3,
+      "no": 15,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“三万里河东入海，五千仞岳上摩天”中提到的“河”和“岳”分别指的是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "黄河、华山"
+        },
+        {
+          "key": "B",
+          "text": "长江、泰山"
+        },
+        {
+          "key": "C",
+          "text": "黄河、泰山"
+        },
+        {
+          "key": "D",
+          "text": "长江、华山"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "黄河、华山",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 79,
+      "flags": [],
+      "note": "答案文件写“C黄河、华山”，卷面 C 为“黄河、泰山”，按答案文件的文字取 A（黄河、华山）。"
+    },
+    {
+      "id": "zt-2020-shisai-076",
+      "seq": 76,
+      "section": 3,
+      "no": 16,
+      "type": "culture",
+      "format": "choice",
+      "stem": "苏轼《浣溪沙》“潇潇暮雨子规啼”中的“子规”指的是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "杜鹃鸟"
+        },
+        {
+          "key": "B",
+          "text": "珍珠鸟"
+        },
+        {
+          "key": "C",
+          "text": "画眉鸟"
+        },
+        {
+          "key": "D",
+          "text": "百灵鸟"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "杜鹃鸟",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 80,
+      "flags": [],
+      "note": "题面作“潇潇暮雨”，苏轼原词为“萧萧暮雨”，照原样转写。"
+    },
+    {
+      "id": "zt-2020-shisai-077",
+      "seq": 77,
+      "section": 3,
+      "no": 17,
+      "type": "culture",
+      "format": "choice",
+      "stem": "写“羌笛何须怨杨柳，春风不度玉门关”的诗人还写过以下哪首诗？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "《滁州西涧》"
+        },
+        {
+          "key": "B",
+          "text": "《夜雨寄北》"
+        },
+        {
+          "key": "C",
+          "text": "《出塞》"
+        },
+        {
+          "key": "D",
+          "text": "《登鹳雀楼》"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "《登鹳雀楼》",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 81,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-078",
+      "seq": 78,
+      "section": 3,
+      "no": 18,
+      "type": "culture",
+      "format": "choice",
+      "stem": "唐代徐凝曾写诗赞美庐山瀑布，“今古长如白练飞，一条界破青山色”。下面哪句诗也是赞美庐山瀑布的？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "飞流直下三千尺，疑是银河落九天。"
+        },
+        {
+          "key": "B",
+          "text": "江碧鸟逾白，山青花欲燃。"
+        },
+        {
+          "key": "C",
+          "text": "江流天地外，山色有无中。"
+        },
+        {
+          "key": "D",
+          "text": "银河飞落青松梢，素车白马云中跑。"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "飞流直下三千尺，疑是银河落九天。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 82,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-079",
+      "seq": 79,
+      "section": 3,
+      "no": 19,
+      "type": "culture",
+      "format": "choice",
+      "stem": "下列诗歌中，没有表达出思念家乡、思念亲人的一首是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "《游子吟》"
+        },
+        {
+          "key": "B",
+          "text": "《九月九日忆山东兄弟》"
+        },
+        {
+          "key": "C",
+          "text": "《静夜思》"
+        },
+        {
+          "key": "D",
+          "text": "《所见》"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "《所见》",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 83,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-080",
+      "seq": 80,
+      "section": 3,
+      "no": 20,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“今我来思，雨雪霏霏”中的“雨雪”指的是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "下雪"
+        },
+        {
+          "key": "B",
+          "text": "雨雪交加"
+        },
+        {
+          "key": "C",
+          "text": "下雨"
+        },
+        {
+          "key": "D",
+          "text": "暴风雪"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "暴风雪",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 84,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-081",
+      "seq": 81,
+      "section": 3,
+      "no": 21,
+      "type": "poem_fill",
+      "format": "choice",
+      "stem": "“小时不识月，呼作___”中的横线上填的是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "共婵娟"
+        },
+        {
+          "key": "B",
+          "text": "瑶台镜"
+        },
+        {
+          "key": "C",
+          "text": "明月光"
+        },
+        {
+          "key": "D",
+          "text": "白玉盘"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "小时不识月，呼作白玉盘。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 85,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-082",
+      "seq": 82,
+      "section": 3,
+      "no": 22,
+      "type": "culture",
+      "format": "choice",
+      "stem": "古人也有谈读书的心得，说“读书有三到”的人是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "曾巩"
+        },
+        {
+          "key": "B",
+          "text": "王安石"
+        },
+        {
+          "key": "C",
+          "text": "苏轼"
+        },
+        {
+          "key": "D",
+          "text": "朱熹"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "朱熹",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 86,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-083",
+      "seq": 83,
+      "section": 3,
+      "no": 23,
+      "type": "culture",
+      "format": "choice",
+      "stem": "下列诗句中不是表达远大志向的诗句是？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "俱怀逸兴壮思飞，欲上青天揽明月。"
+        },
+        {
+          "key": "B",
+          "text": "老骥伏枥，志在千里。"
+        },
+        {
+          "key": "C",
+          "text": "长风破浪会有时，直挂云帆济沧海。"
+        },
+        {
+          "key": "D",
+          "text": "人生在世不称意，明朝散发弄扁舟。"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "人生在世不称意，明朝散发弄扁舟。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 87,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-084",
+      "seq": 84,
+      "section": 3,
+      "no": 24,
+      "type": "culture",
+      "format": "choice",
+      "stem": "“乡村四月闲人少，才了蚕桑又插田”的作者是谁？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "翁卷"
+        },
+        {
+          "key": "B",
+          "text": "陶渊明"
+        },
+        {
+          "key": "C",
+          "text": "叶绍翁"
+        },
+        {
+          "key": "D",
+          "text": "李白"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "翁卷",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 88,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-085",
+      "seq": 85,
+      "section": 3,
+      "no": 25,
+      "type": "culture",
+      "format": "choice",
+      "stem": "下列哪首诗歌不是送别诗？（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "《过故人庄》"
+        },
+        {
+          "key": "B",
+          "text": "《送游人吴》"
+        },
+        {
+          "key": "C",
+          "text": "《别董大》"
+        },
+        {
+          "key": "D",
+          "text": "《赠汪伦》"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "《过故人庄》",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 89,
+      "flags": [],
+      "note": "选项 B 原题作《送游人吴》，杜荀鹤诗题应为《送人游吴》，照原样转写。"
+    },
+    {
+      "id": "zt-2020-shisai-086",
+      "seq": 86,
+      "section": 4,
+      "no": 1,
+      "type": "culture",
+      "format": "judge",
+      "stem": "“戊”表示顺序的第四位。",
+      "pinyin": null,
+      "options": [],
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "第五位",
+      "grade": null,
+      "images": [],
+      "source_page": 90,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-087",
+      "seq": 87,
+      "section": 4,
+      "no": 2,
+      "type": "char_meaning",
+      "format": "judge",
+      "stem": "成语“破釜沉舟”中的“釜”指的是斧头。",
+      "pinyin": null,
+      "options": [],
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "古代的炊事用具，相当于现在的锅",
+      "grade": null,
+      "images": [],
+      "source_page": 91,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-088",
+      "seq": 88,
+      "section": 4,
+      "no": 3,
+      "type": "word_usage",
+      "format": "judge",
+      "stem": "“欲穷千里目，更上一层楼”用了比喻的修辞手法。",
+      "pinyin": null,
+      "options": [],
+      "answer": "√",
+      "answer_full": null,
+      "analysis": "借喻",
+      "grade": null,
+      "images": [],
+      "source_page": 92,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-089",
+      "seq": 89,
+      "section": 4,
+      "no": 4,
+      "type": "culture",
+      "format": "judge",
+      "stem": "《诗经》是我国第一部诗歌总集。",
+      "pinyin": null,
+      "options": [],
+      "answer": "√",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 93,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-090",
+      "seq": 90,
+      "section": 4,
+      "no": 5,
+      "type": "culture",
+      "format": "judge",
+      "stem": "成语“入木三分”原指书法笔力刚劲有力。",
+      "pinyin": null,
+      "options": [],
+      "answer": "√",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 94,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-091",
+      "seq": 91,
+      "section": 4,
+      "no": 6,
+      "type": "culture",
+      "format": "judge",
+      "stem": "“桑梓”常被用来指代故乡。",
+      "pinyin": null,
+      "options": [],
+      "answer": "√",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 95,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-092",
+      "seq": 92,
+      "section": 4,
+      "no": 7,
+      "type": "culture",
+      "format": "judge",
+      "stem": "“尺素”常被用来指代爱情。",
+      "pinyin": null,
+      "options": [],
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "书信",
+      "grade": null,
+      "images": [],
+      "source_page": 96,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-093",
+      "seq": 93,
+      "section": 4,
+      "no": 8,
+      "type": "culture",
+      "format": "judge",
+      "stem": "西安和南京是我国的“十三朝古都”。",
+      "pinyin": null,
+      "options": [],
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "西安和洛阳",
+      "grade": null,
+      "images": [],
+      "source_page": 97,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-094",
+      "seq": 94,
+      "section": 4,
+      "no": 9,
+      "type": "char_meaning",
+      "format": "judge",
+      "stem": "成语“豕奔狼突”中的“豕”指的是猪。",
+      "pinyin": null,
+      "options": [],
+      "answer": "√",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 98,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-095",
+      "seq": 95,
+      "section": 4,
+      "no": 10,
+      "type": "culture",
+      "format": "judge",
+      "stem": "《少年中国说》的作者是曾国藩。",
+      "pinyin": null,
+      "options": [],
+      "answer": "×",
+      "answer_full": null,
+      "analysis": "梁启超",
+      "grade": null,
+      "images": [],
+      "source_page": 99,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-096",
+      "seq": 96,
+      "section": 5,
+      "no": 1,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“挑选”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "拔"
+        },
+        {
+          "key": "B",
+          "text": "制"
+        },
+        {
+          "key": "C",
+          "text": "耕"
+        },
+        {
+          "key": "D",
+          "text": "拾"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "拾",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 100,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-097",
+      "seq": 97,
+      "section": 5,
+      "no": 2,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“表达，发表主张”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "念"
+        },
+        {
+          "key": "B",
+          "text": "鸣"
+        },
+        {
+          "key": "C",
+          "text": "告"
+        },
+        {
+          "key": "D",
+          "text": "想"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "告",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 101,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-098",
+      "seq": 98,
+      "section": 5,
+      "no": 3,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“比得上”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "多"
+        },
+        {
+          "key": "B",
+          "text": "及"
+        },
+        {
+          "key": "C",
+          "text": "赶"
+        },
+        {
+          "key": "D",
+          "text": "达"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "及",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 102,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-099",
+      "seq": 99,
+      "section": 5,
+      "no": 4,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“穷困”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "冷"
+        },
+        {
+          "key": "B",
+          "text": "囧"
+        },
+        {
+          "key": "C",
+          "text": "寒"
+        },
+        {
+          "key": "D",
+          "text": "徒"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "寒",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 103,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-100",
+      "seq": 100,
+      "section": 5,
+      "no": 5,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“泪流不断”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "淋"
+        },
+        {
+          "key": "B",
+          "text": "涟"
+        },
+        {
+          "key": "C",
+          "text": "漪"
+        },
+        {
+          "key": "D",
+          "text": "哭"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "涟",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 104,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-101",
+      "seq": 101,
+      "section": 5,
+      "no": 6,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“结束”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "收"
+        },
+        {
+          "key": "B",
+          "text": "始"
+        },
+        {
+          "key": "C",
+          "text": "关"
+        },
+        {
+          "key": "D",
+          "text": "谢"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "收",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 105,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-102",
+      "seq": 102,
+      "section": 5,
+      "no": 7,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“让给别人，辞让”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "离"
+        },
+        {
+          "key": "B",
+          "text": "分"
+        },
+        {
+          "key": "C",
+          "text": "推"
+        },
+        {
+          "key": "D",
+          "text": "索"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "推",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 106,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-103",
+      "seq": 103,
+      "section": 5,
+      "no": 8,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“凸出”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "高"
+        },
+        {
+          "key": "B",
+          "text": "弹"
+        },
+        {
+          "key": "C",
+          "text": "盛"
+        },
+        {
+          "key": "D",
+          "text": "隆"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "隆",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 107,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-104",
+      "seq": 104,
+      "section": 5,
+      "no": 9,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“恩惠”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "衔"
+        },
+        {
+          "key": "B",
+          "text": "甚"
+        },
+        {
+          "key": "C",
+          "text": "泽"
+        },
+        {
+          "key": "D",
+          "text": "点"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "泽",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 108,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-105",
+      "seq": 105,
+      "section": 5,
+      "no": 10,
+      "type": "char_meaning",
+      "format": "choice",
+      "stem": "下列字中有“标准，法则”之意的一项是：（ ）",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "册"
+        },
+        {
+          "key": "B",
+          "text": "规"
+        },
+        {
+          "key": "C",
+          "text": "典"
+        },
+        {
+          "key": "D",
+          "text": "筹"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "典",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 109,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-106",
+      "seq": 106,
+      "section": 6,
+      "no": 1,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "厮"
+        },
+        {
+          "key": "B",
+          "text": "厝"
+        },
+        {
+          "key": "C",
+          "text": "厚"
+        },
+        {
+          "key": "D",
+          "text": "原"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "厚",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p110.png"
+      ],
+      "source_page": 110,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-107",
+      "seq": 107,
+      "section": 6,
+      "no": 2,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "寻"
+        },
+        {
+          "key": "B",
+          "text": "系"
+        },
+        {
+          "key": "C",
+          "text": "升"
+        },
+        {
+          "key": "D",
+          "text": "灵"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "灵",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p111.png"
+      ],
+      "source_page": 111,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-108",
+      "seq": 108,
+      "section": 6,
+      "no": 3,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "捆"
+        },
+        {
+          "key": "B",
+          "text": "麦"
+        },
+        {
+          "key": "C",
+          "text": "年"
+        },
+        {
+          "key": "D",
+          "text": "结"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "麦",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p112.png"
+      ],
+      "source_page": 112,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-109",
+      "seq": 109,
+      "section": 6,
+      "no": 4,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "奈"
+        },
+        {
+          "key": "B",
+          "text": "夺"
+        },
+        {
+          "key": "C",
+          "text": "夸"
+        },
+        {
+          "key": "D",
+          "text": "套"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "夺",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p113.png"
+      ],
+      "source_page": 113,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-110",
+      "seq": 110,
+      "section": 6,
+      "no": 5,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "仁"
+        },
+        {
+          "key": "B",
+          "text": "心"
+        },
+        {
+          "key": "C",
+          "text": "捧"
+        },
+        {
+          "key": "D",
+          "text": "愿"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "愿",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p114.png"
+      ],
+      "source_page": 114,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-111",
+      "seq": 111,
+      "section": 6,
+      "no": 6,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "亭"
+        },
+        {
+          "key": "B",
+          "text": "意"
+        },
+        {
+          "key": "C",
+          "text": "表"
+        },
+        {
+          "key": "D",
+          "text": "囊"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "意",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p115.png"
+      ],
+      "source_page": 115,
+      "flags": [
+        "image_required",
+        "text_uncertain"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。 选项 D 字形模糊，识读为“囊”，也可能是“襄”。"
+    },
+    {
+      "id": "zt-2020-shisai-112",
+      "seq": 112,
+      "section": 6,
+      "no": 7,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "互"
+        },
+        {
+          "key": "B",
+          "text": "工"
+        },
+        {
+          "key": "C",
+          "text": "共"
+        },
+        {
+          "key": "D",
+          "text": "王"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "互",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p116.png"
+      ],
+      "source_page": 116,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-113",
+      "seq": 113,
+      "section": 6,
+      "no": 8,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "只"
+        },
+        {
+          "key": "B",
+          "text": "另"
+        },
+        {
+          "key": "C",
+          "text": "足"
+        },
+        {
+          "key": "D",
+          "text": "吴"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "足",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p117.png"
+      ],
+      "source_page": 117,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-114",
+      "seq": 114,
+      "section": 6,
+      "no": 9,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "旬"
+        },
+        {
+          "key": "B",
+          "text": "句"
+        },
+        {
+          "key": "C",
+          "text": "司"
+        },
+        {
+          "key": "D",
+          "text": "可"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "司",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p118.png"
+      ],
+      "source_page": 118,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-115",
+      "seq": 115,
+      "section": 6,
+      "no": 10,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "伞"
+        },
+        {
+          "key": "B",
+          "text": "亏"
+        },
+        {
+          "key": "C",
+          "text": "于"
+        },
+        {
+          "key": "D",
+          "text": "平"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "伞",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p119.png"
+      ],
+      "source_page": 119,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。 题面字形图与文字之间有一个多余的小圆点，未转写。"
+    },
+    {
+      "id": "zt-2020-shisai-116",
+      "seq": 116,
+      "section": 6,
+      "no": 11,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "令"
+        },
+        {
+          "key": "B",
+          "text": "今"
+        },
+        {
+          "key": "C",
+          "text": "尖"
+        },
+        {
+          "key": "D",
+          "text": "角"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "尖",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p120.png"
+      ],
+      "source_page": 120,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-117",
+      "seq": 117,
+      "section": 6,
+      "no": 12,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "汍"
+        },
+        {
+          "key": "B",
+          "text": "凄"
+        },
+        {
+          "key": "C",
+          "text": "次"
+        },
+        {
+          "key": "D",
+          "text": "清"
+        }
+      ],
+      "answer": "D",
+      "answer_full": "清",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p121.png"
+      ],
+      "source_page": 121,
+      "flags": [
+        "image_required",
+        "text_uncertain"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。 选项 A 字小，识读为“汍”，也可能是“氿”。"
+    },
+    {
+      "id": "zt-2020-shisai-118",
+      "seq": 118,
+      "section": 6,
+      "no": 13,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "凤"
+        },
+        {
+          "key": "B",
+          "text": "川"
+        },
+        {
+          "key": "C",
+          "text": "州"
+        },
+        {
+          "key": "D",
+          "text": "风"
+        }
+      ],
+      "answer": "C",
+      "answer_full": "州",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p122.png"
+      ],
+      "source_page": 122,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-119",
+      "seq": 119,
+      "section": 6,
+      "no": 14,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "肯"
+        },
+        {
+          "key": "B",
+          "text": "肩"
+        },
+        {
+          "key": "C",
+          "text": "肴"
+        },
+        {
+          "key": "D",
+          "text": "育"
+        }
+      ],
+      "answer": "B",
+      "answer_full": "肩",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p123.png"
+      ],
+      "source_page": 123,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-120",
+      "seq": 120,
+      "section": 6,
+      "no": 15,
+      "type": "glyph",
+      "format": "choice",
+      "stem": "这个字形对应的汉字是",
+      "pinyin": null,
+      "options": [
+        {
+          "key": "A",
+          "text": "林"
+        },
+        {
+          "key": "B",
+          "text": "非"
+        },
+        {
+          "key": "C",
+          "text": "立"
+        },
+        {
+          "key": "D",
+          "text": "树"
+        }
+      ],
+      "answer": "A",
+      "answer_full": "林",
+      "analysis": null,
+      "grade": null,
+      "images": [
+        "assets/zt-2020-shisai/p124.png"
+      ],
+      "source_page": 124,
+      "flags": [
+        "image_required"
+      ],
+      "note": "答案文件注明：第 106–120 题的答案“基本是蒙的”。"
+    },
+    {
+      "id": "zt-2020-shisai-121",
+      "seq": 121,
+      "section": 7,
+      "no": 1,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "qīng zhù",
+      "pinyin": "qīng zhù",
+      "options": [],
+      "answer": "倾注",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 125,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-122",
+      "seq": 122,
+      "section": 7,
+      "no": 2,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "lè qù",
+      "pinyin": "lè qù",
+      "options": [],
+      "answer": "乐趣",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 126,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-123",
+      "seq": 123,
+      "section": 7,
+      "no": 3,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "fā xiáng dì",
+      "pinyin": "fā xiáng dì",
+      "options": [],
+      "answer": "发祥地",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 127,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-124",
+      "seq": 124,
+      "section": 7,
+      "no": 4,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "xiăn wēi jìng",
+      "pinyin": "xiăn wēi jìng",
+      "options": [],
+      "answer": "显微镜",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 128,
+      "flags": [],
+      "note": "原题第三声符号显示为短音符（ă/ŭ/ĭ）而非 ǎ/ǔ/ǐ，照原样转写。"
+    },
+    {
+      "id": "zt-2020-shisai-125",
+      "seq": 125,
+      "section": 7,
+      "no": 5,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "wān yán",
+      "pinyin": "wān yán",
+      "options": [],
+      "answer": "蜿蜒",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 129,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-126",
+      "seq": 126,
+      "section": 7,
+      "no": 6,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "lián yī qún",
+      "pinyin": "lián yī qún",
+      "options": [],
+      "answer": "连衣裙",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 130,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-127",
+      "seq": 127,
+      "section": 7,
+      "no": 7,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "yăng zūn chŭ yōu",
+      "pinyin": "yăng zūn chŭ yōu",
+      "options": [],
+      "answer": "养尊处优",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 131,
+      "flags": [],
+      "note": "原题第三声符号显示为短音符（ă/ŭ/ĭ）而非 ǎ/ǔ/ǐ，照原样转写。"
+    },
+    {
+      "id": "zt-2020-shisai-128",
+      "seq": 128,
+      "section": 7,
+      "no": 8,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "wù lĭ kàn huā",
+      "pinyin": "wù lĭ kàn huā",
+      "options": [],
+      "answer": "雾里看花",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 132,
+      "flags": [],
+      "note": "原题第三声符号显示为短音符（ă/ŭ/ĭ）而非 ǎ/ǔ/ǐ，照原样转写。"
+    },
+    {
+      "id": "zt-2020-shisai-129",
+      "seq": 129,
+      "section": 7,
+      "no": 9,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "jì jiào",
+      "pinyin": "jì jiào",
+      "options": [],
+      "answer": "计较",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 133,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-130",
+      "seq": 130,
+      "section": 7,
+      "no": 10,
+      "type": "pinyin",
+      "format": "fill",
+      "stem": "cāng jìng",
+      "pinyin": "cāng jìng",
+      "options": [],
+      "answer": "苍劲",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 134,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-131",
+      "seq": 131,
+      "section": 8,
+      "no": 1,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "为杨四海名家枯",
+      "pinyin": null,
+      "options": [],
+      "answer": "四海为家",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 135,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-132",
+      "seq": 132,
+      "section": 8,
+      "no": 2,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "秒前争夺恐分先",
+      "pinyin": null,
+      "options": [],
+      "answer": "争分夺秒",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 136,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-133",
+      "seq": 133,
+      "section": 8,
+      "no": 3,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "一水诺漫金在山",
+      "pinyin": null,
+      "options": [],
+      "answer": "水漫金山",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 137,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-134",
+      "seq": 134,
+      "section": 8,
+      "no": 4,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "彩兴流高溢烈光",
+      "pinyin": null,
+      "options": [],
+      "answer": "流光溢彩",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 138,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-135",
+      "seq": 135,
+      "section": 8,
+      "no": 5,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "林尽错致漓落有",
+      "pinyin": null,
+      "options": [],
+      "answer": "错落有致",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 139,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-136",
+      "seq": 136,
+      "section": 8,
+      "no": 6,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "畏所后惧生以可",
+      "pinyin": null,
+      "options": [],
+      "answer": "后生可畏",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 140,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-137",
+      "seq": 137,
+      "section": 8,
+      "no": 7,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "刺悬马勒股梁挂",
+      "pinyin": null,
+      "options": [],
+      "answer": "悬梁刺股",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 141,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-138",
+      "seq": 138,
+      "section": 8,
+      "no": 8,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "大公山智愚若慧",
+      "pinyin": null,
+      "options": [],
+      "answer": "大智若愚",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 142,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-139",
+      "seq": 139,
+      "section": 8,
+      "no": 9,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "偷凿鸡归壁赵光",
+      "pinyin": null,
+      "options": [],
+      "answer": "凿壁偷光",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 143,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-140",
+      "seq": 140,
+      "section": 8,
+      "no": 10,
+      "type": "idiom_pick",
+      "format": "fill",
+      "stem": "蹿东北逃西就窜",
+      "pinyin": null,
+      "options": [],
+      "answer": "东逃西窜",
+      "answer_full": null,
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 144,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-141",
+      "seq": 141,
+      "section": 9,
+      "no": 1,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "敲成玉磬穿林响，___。",
+      "pinyin": null,
+      "options": [],
+      "answer": "忽作玻璃碎地声",
+      "answer_full": "敲成玉磬穿林响，忽作玻璃碎地声。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 145,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-142",
+      "seq": 142,
+      "section": 9,
+      "no": 2,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "宋朝李清照的《夏日绝句》中，诗句“___，___”成了人们抒写豪迈之情的千古佳句。",
+      "pinyin": null,
+      "options": [],
+      "answer": [
+        "生当作人杰",
+        "死亦为鬼雄"
+      ],
+      "answer_full": "生当作人杰，死亦为鬼雄。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 146,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-143",
+      "seq": 143,
+      "section": 9,
+      "no": 3,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "不论平地与山尖，___。",
+      "pinyin": null,
+      "options": [],
+      "answer": "无限风光尽被占",
+      "answer_full": "不论平地与山尖，无限风光尽被占。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 147,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-144",
+      "seq": 144,
+      "section": 9,
+      "no": 4,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "唐朝杜甫的《江畔独步寻花》（其六）中，诗句“___，___”表现了诗人看到彩蝶飞舞，听到黄莺歌唱后内心的喜悦之情。",
+      "pinyin": null,
+      "options": [],
+      "answer": [
+        "留连戏蝶时时舞",
+        "自在娇莺恰恰啼"
+      ],
+      "answer_full": "留连戏蝶时时舞，自在娇莺恰恰啼。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 148,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-145",
+      "seq": 145,
+      "section": 9,
+      "no": 5,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "人们经常会引用唐朝李商隐的《乐游原》中的诗句“___，___”来感叹人生宛如已近黄昏，好景不长了。",
+      "pinyin": null,
+      "options": [],
+      "answer": [
+        "夕阳无限好",
+        "只是近黄昏"
+      ],
+      "answer_full": "夕阳无限好，只是近黄昏。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 149,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-146",
+      "seq": 146,
+      "section": 9,
+      "no": 6,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___，月明桥上看神仙。",
+      "pinyin": null,
+      "options": [],
+      "answer": "十里长街市井连",
+      "answer_full": "十里长街市井连，月明桥上看神仙。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 150,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-147",
+      "seq": 147,
+      "section": 9,
+      "no": 7,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___，漫卷诗书喜欲狂。",
+      "pinyin": null,
+      "options": [],
+      "answer": "却看妻子愁何在",
+      "answer_full": "却看妻子愁何在，漫卷诗书喜欲狂。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 151,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-148",
+      "seq": 148,
+      "section": 9,
+      "no": 8,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "唐朝王之涣的《凉州词》（其一）中，诗句“___，___”用独特的视角远眺黄河，展现了边塞地区壮阔荒凉的景色，成为千古名句。",
+      "pinyin": null,
+      "options": [],
+      "answer": [
+        "黄河远上白云间",
+        "一片孤城万仞山"
+      ],
+      "answer_full": "黄河远上白云间，一片孤城万仞山。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 152,
+      "flags": [],
+      "note": "答案文件此题两句间用半角逗号，answer_full 已改为全角。"
+    },
+    {
+      "id": "zt-2020-shisai-149",
+      "seq": 149,
+      "section": 9,
+      "no": 9,
+      "type": "quote_context",
+      "format": "fill",
+      "stem": "小明上课总是开小差，回家也不好好复习。你可以用汉乐府《长歌行》中的诗句“___，___”来劝勉他好好学习。",
+      "pinyin": null,
+      "options": [],
+      "answer": [
+        "少壮不努力",
+        "老大徒伤悲"
+      ],
+      "answer_full": "少壮不努力，老大徒伤悲。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 153,
+      "flags": [],
+      "note": null
+    },
+    {
+      "id": "zt-2020-shisai-150",
+      "seq": 150,
+      "section": 9,
+      "no": 10,
+      "type": "poem_fill",
+      "format": "fill",
+      "stem": "___，空水共悠悠。",
+      "pinyin": null,
+      "options": [],
+      "answer": "艅艎何泛泛",
+      "answer_full": "艅艎何泛泛，空水共悠悠。",
+      "analysis": null,
+      "grade": null,
+      "images": [],
+      "source_page": 154,
+      "flags": [],
+      "note": null
+    }
+  ]
+}

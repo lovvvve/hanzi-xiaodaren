@@ -1,0 +1,614 @@
+{
+  "total": 1795,
+  "by_group": {
+    "真题": 405,
+    "模拟": 1390
+  },
+  "sets": [
+    {
+      "id": "zt-2020-shisai",
+      "title": "第七届汉字小达人市级比赛真题",
+      "group": "真题",
+      "level": "市赛",
+      "year": 2020,
+      "date": "2020-11-19",
+      "file": "真题/zt-2020-shisai.json",
+      "count": 150,
+      "sections": [
+        {
+          "no": 1,
+          "title": "一、请选择正确的选项，将下列词语填写完整。（每小题1分，共30题）",
+          "type": "word_fill",
+          "count": 30
+        },
+        {
+          "no": 2,
+          "title": "二、请根据题干要求选择。（每小题1分，共30题）",
+          "type": "word_usage",
+          "count": 30
+        },
+        {
+          "no": 3,
+          "title": "三、请选择正确的选项。（每小题1分，共25题）",
+          "type": "culture",
+          "count": 25
+        },
+        {
+          "no": 4,
+          "title": "四、判断题。（每小题1分，共10题）",
+          "type": "culture",
+          "count": 10
+        },
+        {
+          "no": 5,
+          "title": "五、词语溯源。（每小题1分，共10题）",
+          "type": "char_meaning",
+          "count": 10
+        },
+        {
+          "no": 6,
+          "title": "六、请根据给出的字形选出其对应的正确汉字。（每小题1分，共15题）",
+          "type": "glyph",
+          "count": 15
+        },
+        {
+          "no": 7,
+          "title": "七、请根据拼音写出正确的汉字。（每小题1分，共10题）",
+          "type": "pinyin",
+          "count": 10
+        },
+        {
+          "no": 8,
+          "title": "八、请从给出的七个字中挑出四字，组成一个成语。（每小题1分，共10题）",
+          "type": "idiom_pick",
+          "count": 10
+        },
+        {
+          "no": 9,
+          "title": "九、请将下列诗句填写完整。（每小题1分，共10题）",
+          "type": "poem_fill",
+          "count": 10
+        }
+      ],
+      "types": {
+        "word_usage": 31,
+        "culture": 30,
+        "word_fill": 26,
+        "glyph": 15,
+        "char_meaning": 12,
+        "poem_fill": 11,
+        "pinyin": 10,
+        "idiom_pick": 10,
+        "idiom_fill": 4,
+        "quote_context": 1
+      },
+      "flags": {
+        "image_required": 15,
+        "text_uncertain": 6
+      }
+    },
+    {
+      "id": "zt-2021-shisai",
+      "title": "第八届汉字小达人市级比赛真题",
+      "group": "真题",
+      "level": "市赛",
+      "year": 2021,
+      "date": "2021-11-25",
+      "file": "真题/zt-2021-shisai.json",
+      "count": 150,
+      "sections": [
+        {
+          "no": 1,
+          "title": "一、请根据你所学的汉字知识，选择正确的选项，将下列词语填写完整。（每小题1分，共30题）",
+          "type": "word_fill",
+          "count": 30
+        },
+        {
+          "no": 2,
+          "title": "二、汉字是传承中华文化的重要载体，规范书写汉字是公民应尽的义务。请仔细阅读题干要求，并根据你所学的汉字知识，选择正确的选项。（每小题1分，共30题）",
+          "type": "word_usage",
+          "count": 30
+        },
+        {
+          "no": 3,
+          "title": "三、学习古代诗文是了解中华优秀传统文化的重要途径。请根据你所学的古诗文知识，选择正确的选项。（每小题1分，共25题）",
+          "type": "culture",
+          "count": 25
+        },
+        {
+          "no": 4,
+          "title": "四、你对汉字和国学常识了解多少？请对下列题目进行正误判断。（每小题1分，共10题）",
+          "type": "culture",
+          "count": 10
+        },
+        {
+          "no": 5,
+          "title": "五、了解汉字的意义，正确使用汉字。请仔细阅读题干中的字义，根据你所学的汉字知识，选择正确的选项。（每小题1分，共10题）",
+          "type": "char_meaning",
+          "count": 10
+        },
+        {
+          "no": 6,
+          "title": "六、甲骨文、金文等是汉字的源头和中华优秀传统文化的根脉。请根据给出的字形，选出其对应的正确汉字。（每小题1分，共15题）",
+          "type": "glyph",
+          "count": 15
+        },
+        {
+          "no": 7,
+          "title": "七、汉语拼音是认识汉字的工具。请根据以下拼音写出正确的汉字。（每小题1分，共10题）",
+          "type": "pinyin",
+          "count": 10
+        },
+        {
+          "no": 8,
+          "title": "八、成语是经过漫长岁月锤炼而成的固定短语，蕴含着丰富的中华文化。请从下列给出的七个字中挑出四字，组成一个成语。（每小题1分，共10题）",
+          "type": "idiom_pick",
+          "count": 10
+        },
+        {
+          "no": 9,
+          "title": "九、背诵经典诗文，传承中华文化。请将下列诗句填写完整。（每小题1分，共10题）",
+          "type": "poem_fill",
+          "count": 10
+        }
+      ],
+      "types": {
+        "word_usage": 33,
+        "culture": 29,
+        "word_fill": 21,
+        "glyph": 15,
+        "char_meaning": 12,
+        "pinyin": 10,
+        "idiom_pick": 10,
+        "idiom_fill": 9,
+        "poem_fill": 6,
+        "quote_context": 5
+      },
+      "flags": {
+        "image_required": 15,
+        "text_uncertain": 2
+      }
+    },
+    {
+      "id": "zt-2025-qusai",
+      "title": "2025汉字小达人区赛真题",
+      "group": "真题",
+      "level": "区赛",
+      "year": 2025,
+      "date": null,
+      "file": "真题/zt-2025-qusai.json",
+      "count": 105,
+      "sections": [
+        {
+          "no": 1,
+          "title": "一、汉语拼音是认识汉字的工具。请根据以下拼音写出正确的汉字。（每小题 1 分）",
+          "type": "pinyin",
+          "count": 30
+        },
+        {
+          "no": 2,
+          "title": "二、成语是经过漫长岁月锤炼而成的固定短语，蕴含着丰富的中华优秀传统文化。请将下列成语填写完整。（每题 1 分）",
+          "type": "idiom_fill",
+          "count": 30
+        },
+        {
+          "no": 3,
+          "title": "三、学习经典诗文，传承中华优秀传统文化。请把下列诗句填写完整。（每题 1 分）",
+          "type": "poem_fill",
+          "count": 15
+        },
+        {
+          "no": 4,
+          "title": "四、请根据你所学的汉字知识，选择正确的选项。（每题 1 分）",
+          "type": "word_fill",
+          "count": 25
+        },
+        {
+          "no": 5,
+          "title": "附加题：你对汉字和国学常识了解多少？请对下列题目进行正误判断，正确的打“√”，错误的打“×”。（每题 1 分）",
+          "type": "culture",
+          "count": 5
+        }
+      ],
+      "types": {
+        "pinyin": 30,
+        "idiom_fill": 30,
+        "word_fill": 25,
+        "poem_fill": 15,
+        "culture": 5
+      },
+      "flags": {}
+    },
+    {
+      "id": "mn-2022-0708",
+      "title": "汉字小达人模拟题“美丽汉字”系列活动——“中文自修杯”上海市小学生“汉字小达人”活动模拟题（2022年7&8月刊）",
+      "group": "模拟",
+      "level": "模拟",
+      "year": 2022,
+      "date": null,
+      "file": "模拟/mn-2022-0708.json",
+      "count": 345,
+      "sections": [
+        {
+          "no": 1,
+          "title": "一、请根据拼音写出正确的汉字",
+          "type": "pinyin",
+          "count": 40
+        },
+        {
+          "no": 2,
+          "title": "二、请将下列成语填写完整",
+          "type": "idiom_fill",
+          "count": 50
+        },
+        {
+          "no": 3,
+          "title": "三、请根据题干要求选择正确的答案",
+          "type": "word_usage",
+          "count": 50
+        },
+        {
+          "no": 4,
+          "title": "四、请选择正确的答案,将词语补充完整",
+          "type": "word_fill",
+          "count": 30
+        },
+        {
+          "no": 5,
+          "title": "五、从给出的字中挑出四字成语。",
+          "type": "idiom_pick",
+          "count": 30
+        },
+        {
+          "no": 6,
+          "title": "六、请将下列诗句填写完整。(一)默写诗句。",
+          "type": "poem_fill",
+          "count": 20
+        },
+        {
+          "no": 7,
+          "title": "六、请将下列诗句填写完整。(二)根据给定的情境,填写诗词句。",
+          "type": "quote_context",
+          "count": 30
+        },
+        {
+          "no": 8,
+          "title": "六、(三)下面表格中的字隐藏着五言古诗中的一句诗，请把它们找出来，并用线连起来。（卷面误印为“三、下面表格中的字隐藏着五言古诗中的一句诗，请把它们找出来，并用线连起来。”，位于六（二）之后、七之前；答案文件作“（三）下面表格中的字隐藏着一句诗句，请把它们找出来，用线连起来”，故归为第六大题第（三）小节。字格按行转写进 stem：首行只有中间一格，左右用全角空格“　”占位，其下为 3×3 字格。）",
+          "type": "poem_link",
+          "count": 15
+        },
+        {
+          "no": 9,
+          "title": "七、请选择正确的选项。",
+          "type": "culture",
+          "count": 30
+        },
+        {
+          "no": 10,
+          "title": "八、请根据字义选择正确的答案。",
+          "type": "char_meaning",
+          "count": 30
+        },
+        {
+          "no": 11,
+          "title": "九、请根据给出的字形选出其对应的正确汉字",
+          "type": "glyph",
+          "count": 20
+        }
+      ],
+      "types": {
+        "idiom_fill": 50,
+        "word_usage": 50,
+        "pinyin": 40,
+        "word_fill": 30,
+        "idiom_pick": 30,
+        "quote_context": 30,
+        "culture": 30,
+        "char_meaning": 30,
+        "poem_fill": 20,
+        "glyph": 20,
+        "poem_link": 15
+      },
+      "flags": {
+        "image_required": 20
+      }
+    },
+    {
+      "id": "mn-2023-0708",
+      "title": "“中文自修杯”上海市小学生“汉字小达人”活动模拟题（2023年7&8月刊）",
+      "group": "模拟",
+      "level": "模拟",
+      "year": 2023,
+      "date": null,
+      "file": "模拟/mn-2023-0708.json",
+      "count": 345,
+      "sections": [
+        {
+          "no": 1,
+          "title": "一、请根据拼音写出正确的汉字。",
+          "type": "pinyin",
+          "count": 40
+        },
+        {
+          "no": 2,
+          "title": "二、请将下列成语填写完整。",
+          "type": "idiom_fill",
+          "count": 40
+        },
+        {
+          "no": 3,
+          "title": "三、请从给出的字中挑出四字成语。",
+          "type": "idiom_pick",
+          "count": 30
+        },
+        {
+          "no": 4,
+          "title": "四、请选择正确的答案，将词语补充完整。",
+          "type": "word_fill",
+          "count": 40
+        },
+        {
+          "no": 5,
+          "title": "五、请根据题干要求选择正确的答案。",
+          "type": "word_usage",
+          "count": 60
+        },
+        {
+          "no": 6,
+          "title": "六、请找出正确的诗句，并用线将字连起来。",
+          "type": "poem_link",
+          "count": 20
+        },
+        {
+          "no": 7,
+          "title": "七、请根据给定的情境，填写诗词句或名言警句。",
+          "type": "quote_context",
+          "count": 20
+        },
+        {
+          "no": 8,
+          "title": "八、请选择正确的选项。",
+          "type": "culture",
+          "count": 25
+        },
+        {
+          "no": 9,
+          "title": "九、判断题，正确的打“√”，错误的打“×”。",
+          "type": "culture",
+          "count": 20
+        },
+        {
+          "no": 10,
+          "title": "十、请根据字义选择正确的答案。",
+          "type": "char_meaning",
+          "count": 30
+        },
+        {
+          "no": 11,
+          "title": "十一、请根据给出的字形选出其对应的正确汉字。",
+          "type": "glyph",
+          "count": 20
+        }
+      ],
+      "types": {
+        "word_usage": 60,
+        "culture": 44,
+        "pinyin": 40,
+        "idiom_fill": 40,
+        "word_fill": 40,
+        "idiom_pick": 30,
+        "char_meaning": 30,
+        "poem_link": 20,
+        "quote_context": 20,
+        "glyph": 20,
+        "poem_fill": 1
+      },
+      "flags": {
+        "image_required": 20
+      }
+    },
+    {
+      "id": "mn-2025-official",
+      "title": "“中文自修杯”上海市小学生“汉字小达人”活动模拟题（2025官方）",
+      "group": "模拟",
+      "level": "模拟",
+      "year": 2025,
+      "date": null,
+      "file": "模拟/mn-2025-official.json",
+      "count": 350,
+      "sections": [
+        {
+          "no": 1,
+          "title": "一、请根据拼音写出正确的汉字。",
+          "type": "pinyin",
+          "count": 40
+        },
+        {
+          "no": 2,
+          "title": "二、请将下列成语填写完整。",
+          "type": "idiom_fill",
+          "count": 40
+        },
+        {
+          "no": 3,
+          "title": "三、请从给出的字中挑出四字成语。",
+          "type": "idiom_pick",
+          "count": 30
+        },
+        {
+          "no": 4,
+          "title": "四、请选择正确的答案，将词语补充完整。",
+          "type": "word_fill",
+          "count": 40
+        },
+        {
+          "no": 5,
+          "title": "五、请根据题干要求选择正确的答案。",
+          "type": "word_usage",
+          "count": 60
+        },
+        {
+          "no": 6,
+          "title": "六、请找出正确的诗句，并用线将字连起来。",
+          "type": "poem_link",
+          "count": 20
+        },
+        {
+          "no": 7,
+          "title": "七、请根据给定的情境，填写诗词句或名言警句。",
+          "type": "quote_context",
+          "count": 15
+        },
+        {
+          "no": 8,
+          "title": "八、请选择正确的选项。",
+          "type": "culture",
+          "count": 25
+        },
+        {
+          "no": 9,
+          "title": "九、判断题，正确的打“√”，错误的打“×”。",
+          "type": "culture",
+          "count": 15
+        },
+        {
+          "no": 10,
+          "title": "十、请根据字义选择正确的答案。",
+          "type": "char_meaning",
+          "count": 30
+        },
+        {
+          "no": 11,
+          "title": "十一、请根据下列给出的文言文和古诗词，写出相关成语。",
+          "type": "idiom_from_text",
+          "count": 15
+        },
+        {
+          "no": 12,
+          "title": "十二、请根据给出的字形选出其对应的正确汉字。",
+          "type": "glyph",
+          "count": 20
+        }
+      ],
+      "types": {
+        "word_usage": 60,
+        "pinyin": 40,
+        "idiom_fill": 40,
+        "word_fill": 40,
+        "culture": 37,
+        "idiom_pick": 30,
+        "char_meaning": 30,
+        "poem_link": 20,
+        "glyph": 20,
+        "quote_context": 15,
+        "idiom_from_text": 15,
+        "poem_fill": 3
+      },
+      "flags": {
+        "image_required": 20,
+        "text_uncertain": 1
+      }
+    },
+    {
+      "id": "mn-2026-0708",
+      "title": "“中文自修杯”上海市小学生“汉字小达人”活动模拟题（2026年7&8月刊）",
+      "group": "模拟",
+      "level": "模拟",
+      "year": 2026,
+      "date": null,
+      "file": "模拟/mn-2026-0708.json",
+      "count": 350,
+      "sections": [
+        {
+          "no": 1,
+          "title": "一、请根据拼音写出正确的汉字。",
+          "type": "pinyin",
+          "count": 40
+        },
+        {
+          "no": 2,
+          "title": "二、请将下列成语填写完整。",
+          "type": "idiom_fill",
+          "count": 40
+        },
+        {
+          "no": 3,
+          "title": "三、请从给出的字中挑出四字成语。",
+          "type": "idiom_pick",
+          "count": 30
+        },
+        {
+          "no": 4,
+          "title": "四、请选择正确的答案，将词语补充完整。",
+          "type": "word_fill",
+          "count": 40
+        },
+        {
+          "no": 5,
+          "title": "五、请根据题干要求选择正确的答案。",
+          "type": "word_usage",
+          "count": 60
+        },
+        {
+          "no": 6,
+          "title": "六、请找出正确的诗句，并用线将字连起来。",
+          "type": "poem_link",
+          "count": 20
+        },
+        {
+          "no": 7,
+          "title": "七、请根据给定的情境，填写诗词句或名言警句。",
+          "type": "quote_context",
+          "count": 15
+        },
+        {
+          "no": 8,
+          "title": "八、请选择正确的选项。",
+          "type": "culture",
+          "count": 25
+        },
+        {
+          "no": 9,
+          "title": "九、判断题，正确的打“√”，错误的打“×”。",
+          "type": "culture",
+          "count": 15
+        },
+        {
+          "no": 10,
+          "title": "十、请根据字义选择正确的答案。",
+          "type": "char_meaning",
+          "count": 30
+        },
+        {
+          "no": 11,
+          "title": "十一、请根据下列给出的文言文和古诗词，写出相关成语。",
+          "type": "idiom_from_text",
+          "count": 15
+        },
+        {
+          "no": 12,
+          "title": "十二、请根据给出的字形选出其对应的正确汉字。",
+          "type": "glyph",
+          "count": 20
+        }
+      ],
+      "types": {
+        "word_usage": 61,
+        "pinyin": 40,
+        "idiom_fill": 40,
+        "word_fill": 40,
+        "culture": 39,
+        "idiom_pick": 30,
+        "char_meaning": 30,
+        "poem_link": 20,
+        "glyph": 20,
+        "quote_context": 15,
+        "idiom_from_text": 15
+      },
+      "flags": {
+        "image_required": 23,
+        "text_uncertain": 3
+      }
+    }
+  ]
+}
