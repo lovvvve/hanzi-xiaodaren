@@ -36,11 +36,11 @@ button{touch-action:manipulation}
 :focus-visible{outline:2px solid var(--grid);outline-offset:2px}
 
 /* 田字格 */
-.tzg>span,.box,.pbox{border:1.5px solid var(--grid);margin-left:-1.5px;
+.tzg>span,.box{border:1.5px solid var(--grid);margin-left:-1.5px;
   background-image:linear-gradient(var(--grid-line),var(--grid-line)),linear-gradient(var(--grid-line),var(--grid-line));
   background-size:100% 1px,1px 100%;background-position:center;background-repeat:no-repeat}
 .tzg>span,.box{display:grid;place-items:center;line-height:1}
-.tzg>span:first-child,.box:first-child,.pbox:first-child{margin-left:0}
+.tzg>span:first-child,.box:first-child{margin-left:0}
 
 .masthead{padding-block:2rem 1.25rem;display:grid;gap:.8rem}
 h1{margin:0;display:flex;flex-wrap:wrap;align-items:flex-end;gap:.5rem .9rem;font-weight:400}
@@ -112,32 +112,16 @@ h1{margin:0;display:flex;flex-wrap:wrap;align-items:flex-end;gap:.5rem .9rem;fon
 /* 单字字形：固定高度，白底（字形图本身是白底） */
 .fig.glyph img{width:auto;max-width:100%;height:clamp(6.5rem,28vw,9.5rem);padding:.45rem;background:var(--glyph-bg)}
 
-/* 手写区：每个答案字一个田字格画板 */
-.pad{--pad:clamp(56px,17vw,80px);display:flex;flex-wrap:wrap;gap:.75rem .9rem;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
-.pgroup{display:flex;flex-wrap:wrap;row-gap:.6rem}
-/* 每个字一列：上格手写，下格标准字（看答案后才出现） */
-.pcol{display:flex;flex-direction:column;gap:6px;margin-left:-1.5px}
-.pcol:first-child{margin-left:0}
-.pcol>.pbox,.pcol>.box{margin-left:0}
-.pbox{position:relative;width:var(--pad);height:var(--pad);background-color:var(--sheet);touch-action:none}
-.pbox canvas{position:absolute;inset:0;width:100%;height:100%;z-index:1;touch-action:none;cursor:crosshair}
-.pad.ro .pbox,.pad.ro canvas{touch-action:auto;cursor:default}
-.pad.tap .pbox,.pad.tap canvas{touch-action:auto;cursor:pointer}
-/* 放大书写板 */
-.wb{position:fixed;inset:0;z-index:30;background:var(--scrim);display:grid;place-items:center;overscroll-behavior:contain;touch-action:none;padding:calc(env(safe-area-inset-top,0px) + .75rem) max(12px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + .75rem) max(12px,env(safe-area-inset-left,0px))}
-.wb-in{width:min(100%,30rem);max-height:100%;overflow:auto;touch-action:pan-y;overscroll-behavior:contain;display:grid;gap:.8rem;justify-items:center;padding:1rem;border-radius:14px;background:var(--sheet)}
-.wb-h{width:100%;display:flex;justify-content:space-between;align-items:center;gap:.5rem;font-size:14px;color:var(--muted)}
-.wb-box{--wb:min(80vw,54vh,24rem);width:var(--wb);height:var(--wb);margin-left:0;background-color:var(--sheet);touch-action:none}
-.wb-box canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
-.wb-ctl{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem .9rem}
-.wb-ctl .btn:disabled{opacity:.4;cursor:default}
-.wb-thumbs{display:flex;flex-wrap:wrap;justify-content:center;gap:6px}
-.wb-th{width:42px;height:42px;margin-left:0;padding:0;background-color:var(--sheet);cursor:pointer}
-.wb-th canvas{position:absolute;inset:0;width:100%;height:100%}
-.wb-th.on{outline:2px solid var(--red);outline-offset:2px}
-.pref{width:var(--pad);height:var(--pad);font-size:calc(var(--pad)*.74);border-color:var(--red)}
-.pad-tools{display:flex;flex-wrap:wrap;align-items:center;gap:.2rem 1rem;font-size:13px;color:var(--muted)}
-.pad-tools>span{margin-right:auto}
+/* 输入作答：输入框嵌在题干空位里，提交后自动判分 */
+.in{font:inherit;font-family:var(--f-text);font-size:max(16px,1em);line-height:1.5;max-width:100%;padding:.05em .35em;margin-inline:.15em;
+  border:0;border-bottom:1.5px solid var(--ink);border-radius:4px 4px 0 0;background:var(--grid-soft);color:var(--ink);text-align:center;vertical-align:baseline}
+.in:focus{outline:2px solid var(--grid);outline-offset:1px}
+.in[readonly]{background:transparent}
+.ipt{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:0 .2em;max-width:100%}
+.ipt.ok .in{color:var(--grid);border-bottom-color:var(--grid);background:var(--grid-soft)}
+.ipt.no .in{color:var(--red);border-bottom-color:var(--red);background:var(--red-soft);text-decoration:line-through;text-decoration-thickness:1.5px}
+.fix{font-family:var(--f-text);font-weight:700;color:var(--red)}
+.ipt-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem;font-size:1.15rem}
 
 /* 挑字成语：上排给出的字可点，下排依次填入 */
 .pk{--tile:clamp(46px,12.5vw,58px);display:grid;gap:.75rem}
@@ -261,7 +245,6 @@ button.pk-slot[aria-disabled]{cursor:default}
   <div class="row">
     <label class="search" for="kw"><span class="sr">搜索</span><input id="kw" type="search" placeholder="搜题干、选项或答案" autocomplete="off" enterkeyhint="search"></label>
     <label class="tog" for="onlyFlag"><input type="checkbox" id="onlyFlag">只看待核对<span class="cnt" id="flagCount"></span></label>
-    <label class="tog" for="padOn"><input type="checkbox" id="padOn" checked>手写作答</label>
   </div>
   <p class="book-note" id="bookMsg" hidden></p>
 </section>
@@ -272,7 +255,6 @@ button.pk-slot[aria-disabled]{cursor:default}
   <p>__FOOT__</p>
 </footer>
 
-<div class="wb" id="wb" hidden role="dialog" aria-modal="true" aria-label="放大书写"><div class="wb-in"><div class="wb-h"><span id="wbTitle"></span><button type="button" class="btn solid" id="wbDone">完成</button></div><div class="pbox wb-box" id="wbBox"></div><div class="wb-ctl"><button type="button" class="btn" id="wbPrev">上一格</button><button type="button" class="link" id="wbUndo">撤销一笔</button><button type="button" class="link" id="wbWipe">擦掉这格</button><button type="button" class="btn solid" id="wbNext">下一格</button></div><div class="wb-thumbs" id="wbThumbs"></div></div></div>
 <div class="lb" id="lb" hidden><button type="button" class="lb-x" id="lbX">关闭</button><img id="lbImg" alt=""></div>
 
 <script id="data" type="application/json">__DATA__</script>
@@ -299,13 +281,12 @@ button.pk-slot[aria-disabled]{cursor:default}
   });
 
   const $ = id => document.getElementById(id);
-  const COARSE = !!(window.matchMedia && window.matchMedia('(pointer: coarse)').matches); // 手机、平板：点格子放大书写
   const tabsEl = $('tabs'), typesEl = $('types'), infoEl = $('info'), listEl = $('list'), scoreEl = $('score');
-  const kwEl = $('kw'), flagEl = $('onlyFlag'), padEl = $('padOn'), flagCnt = $('flagCount'), lb = $('lb'), lbImg = $('lbImg');
+  const kwEl = $('kw'), flagEl = $('onlyFlag'), flagCnt = $('flagCount'), lb = $('lb'), lbImg = $('lbImg');
 
   let state = new Map();
   const filt = {set: 'all', type: '', flag: false, q: ''};
-  let mode = 'practice', padOn = true;
+  let mode = 'practice';
 
   const load = (k, d) => { try { const v = localStorage.getItem(k); return v == null ? d : v; } catch (e) { return d; } };
   const save = (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* 无痕模式等 */ } };
@@ -356,11 +337,25 @@ button.pk-slot[aria-disabled]{cursor:default}
     if (q.format === 'judge') return q.answer === '√' ? '√　正确' : '×　错误';
     return q.answer_full || (Array.isArray(q.answer) ? q.answer.join(' / ') : String(q.answer));
   }
-  // 手写格：按空位/标点把答案切成若干组，每个汉字一格
-  function padGroups(q) {
-    if (q.answer == null || q.format !== 'fill') return [];
-    return [].concat(q.answer).flatMap(s => String(s).split(NON_HAN)).filter(Boolean);
+  // 输入作答：填空题（点字题除外）用输入法输入，每个空位一个输入框，只比对汉字
+  const hanOnly = s => chars(s).filter(c => HAN.test(c)).join('');
+  const expects = q => [].concat(q.answer).map(hanOnly);
+  const typeMode = q => q.format === 'fill' && q.answer != null && !canPick(q);
+  function inputHTML(q, k, st, done) {
+    const ex = expects(q), exp = ex[k] || '', n = Math.max(1, chars(exp).length);
+    const right = done && !!(st.marks || [])[k];
+    return `<span class="ipt${done ? (right ? ' ok' : ' no') : ''}"><input type="text" class="in" data-k="${k}" value="${esc((st.typed || [])[k] || '')}"` +
+      ` style="width:${(n * 1.12 + 1.1).toFixed(2)}em" lang="zh-CN" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"` +
+      ` enterkeyhint="${k < ex.length - 1 ? 'next' : 'done'}" aria-label="第 ${k + 1} 空，${n} 个字"${done ? ' readonly' : ''}>` +
+      (done && !right ? `<span class="fix">${esc(exp)}</span>` : '') + '</span>';
   }
+  function typedStem(q, st, done) {
+    const parts = q.stem.split('___');
+    let h = esc(parts[0]);
+    for (let i = 1; i < parts.length; i++) h += inputHTML(q, i - 1, st, done) + esc(parts[i]);
+    return h;
+  }
+  const typedOf = (card, st) => { const ins = [...card.querySelectorAll('input.in')]; return ins.length ? ins.map(x => x.value) : (st.typed || []); };
   // 挑字成语能否点选：答案里的每个字都要在给出的字里找得到
   const pickPool = q => chars(q.stem).filter(c => c !== '\n' && c !== '　' && c !== ' ');
   function canPick(q) {
@@ -396,8 +391,7 @@ button.pk-slot[aria-disabled]{cursor:default}
     const set = setById.get(q.set);
     const sec = secLabel(secTitle.get(q.set + '#' + q.section));
     const pickMode = !review && canPick(q);
-    const groups = padOn && !review && !pickMode ? padGroups(q) : [];
-    const showPad = groups.length > 0;
+    const typing = !review && typeMode(q);
     const tags = [`<span class="tag">${esc(TYPE[q.type] || q.type)}</span>`];
     if (q.grade) tags.push(`<span class="tag tag-grade">${esc(GRADE[q.grade] || q.grade)}</span>`);
     q.flags.forEach(f => tags.push(`<span class="tag${WARN.has(f) ? ' tag-warn' : ''}">${esc(FLAG[f] || f)}</span>`));
@@ -406,7 +400,7 @@ button.pk-slot[aria-disabled]{cursor:default}
     if (q.type === 'pinyin') {
       body += `<div class="py" lang="zh-Latn-pinyin">${esc(q.pinyin || q.stem)}</div>`;
       if (q.pinyin && q.stem !== q.pinyin) body += `<p class="stem">${stemHTML(q, reveal)}</p>`;
-      if (!showPad) body += `<div class="py-ans">${boxes(ansStr(q.answer), reveal)}</div>`;
+      body += typing ? `<div class="ipt-row">${inputHTML(q, 0, st, done)}</div>` : `<div class="py-ans">${boxes(ansStr(q.answer), reveal)}</div>`;
     } else if (pickMode) {
       body += pickHTML(q, st, done);
     } else if (q.type === 'poem_link') {
@@ -414,23 +408,17 @@ button.pk-slot[aria-disabled]{cursor:default}
         chars(r).map(c => (c === '　' || c === ' ') ? '<span class="pk-gap"></span>' : `<span class="box pk-tile">${esc(c)}</span>`).join('') + '</div>').join('') + '</div>';
     } else if (q.type === 'idiom_pick' && !q.stem.includes('___')) {
       body += `<div class="pick">${boxes(q.stem, true, 'given')}` +
-        (showPad ? '' : `<span class="arrow" aria-hidden="true">→</span>${boxes(ansStr(q.answer), reveal)}`) + '</div>';
+        (typing ? '' : `<span class="arrow" aria-hidden="true">→</span>${boxes(ansStr(q.answer), reveal)}`) + '</div>';
+      if (typing) body += `<div class="ipt-row">${inputHTML(q, 0, st, done)}</div>`;
+    } else if (typing && q.stem.includes('___')) {
+      body += `<p class="stem">${typedStem(q, st, done)}</p>`;
     } else {
       body += `<p class="stem">${stemHTML(q, reveal)}</p>`;
+      if (typing) body += `<div class="ipt-row">${inputHTML(q, 0, st, done)}</div>`;
     }
     (q.images || []).forEach(src => {
       body += `<figure class="fig${/\/g\d+\.png$/.test(src) ? ' glyph' : ''}"><img src="${esc(src)}" alt="${esc(set.short)}第 ${q.seq} 题原卷截图" loading="lazy" data-zoom></figure>`;
     });
-    if (showPad) {
-      let i = 0;
-      const n = groups.reduce((a, g) => a + chars(g).length, 0);
-      body += `<div class="pad${done ? ' ro' : ''}${COARSE ? ' tap' : ''}" data-id="${esc(q.id)}" role="group" aria-label="手写区，共 ${n} 个字">` +
-        groups.map(g => '<span class="pgroup">' + chars(g).map(c =>
-          `<span class="pcol"><span class="pbox" data-i="${i++}"></span>${reveal ? `<span class="box pref" title="标准字">${esc(c)}</span>` : ''}</span>`).join('') + '</span>').join('') +
-        '</div>';
-      body += `<div class="pad-tools"><span>${reveal ? '上排是你写的，下排红字是标准字' : COARSE ? '点格子放大书写' : '在格子里直接写，或放大书写'}</span>` +
-        (done ? '' : '<button type="button" class="link" data-act="board">放大书写</button><button type="button" class="link" data-act="undo">撤销一笔</button><button type="button" class="link" data-act="wipe">全部擦掉</button>') + '</div>';
-    }
     if (q.format === 'choice' || q.format === 'judge') {
       const opts = q.format === 'judge' ? [{key:'√', text:'对'}, {key:'×', text:'错'}] : (q.options || []);
       const short = opts.every(o => chars(o.text).length <= 4);
@@ -450,7 +438,9 @@ button.pk-slot[aria-disabled]{cursor:default}
         act = `<span class="ask">${q.type === 'poem_link' ? '按诗句顺序点字' : '按顺序点字'}，点下排的字可退回</span>` +
           ((st.sel || []).length ? '<button type="button" class="link" data-act="pkclear">清空</button>' : '') +
           '<button type="button" class="btn" data-act="giveup">看答案</button>';
-      } else if ((q.format === 'fill' || q.format === 'link') && !done) {
+      } else if (typing && !done) {
+        act = '<button type="button" class="btn solid" data-act="submit">提交</button><button type="button" class="link" data-act="giveup">不会，看答案</button>';
+      } else if (q.format === 'link' && !done) {
         act = st.revealed
           ? '<span class="ask">写对了吗？</span><button type="button" class="btn" data-act="self" data-v="1">√ 写对了</button><button type="button" class="btn warn" data-act="self" data-v="0">× 写错了</button>'
           : '<button type="button" class="btn solid" data-act="reveal">看答案</button>';
@@ -471,98 +461,6 @@ button.pk-slot[aria-disabled]{cursor:default}
       `<span class="q-src">第 ${q.seq} 题${q.source_page ? ' · 原卷第 ' + q.source_page + ' 页' : ''}</span>${bookSlot(q)}</header>` +
       body + (act ? `<div class="act">${act}</div>` : '') + ans + '</article>';
   }
-
-  /* ---------- 手写板 ---------- */
-  let inkColor = '#1c2925', penAt = 0;
-  const readInk = () => { inkColor = getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || inkColor; };
-  const strokesOf = (id, i) => ((state.get(id) || {}).ink || []).filter(s => s[0] === i).map(s => s[1]);
-  function paint(cv, strokes, cur) {
-    const ctx = cv.getContext('2d'), w = cv.width, h = cv.height;
-    ctx.clearRect(0, 0, w, h);
-    ctx.strokeStyle = ctx.fillStyle = inkColor;
-    ctx.lineCap = 'round'; ctx.lineJoin = 'round';
-    const lw = Math.max(2, w * 0.05);
-    ctx.lineWidth = lw;
-    for (const p of cur ? strokes.concat([cur]) : strokes) {
-      if (!p.length) continue;
-      ctx.beginPath();
-      if (p.length === 1) { ctx.arc(p[0][0] * w, p[0][1] * h, lw / 2, 0, Math.PI * 2); ctx.fill(); continue; }
-      ctx.moveTo(p[0][0] * w, p[0][1] * h);
-      for (let k = 1; k < p.length - 1; k++) {
-        ctx.quadraticCurveTo(p[k][0] * w, p[k][1] * h, (p[k][0] + p[k + 1][0]) / 2 * w, (p[k][1] + p[k + 1][1]) / 2 * h);
-      }
-      const l = p[p.length - 1];
-      ctx.lineTo(l[0] * w, l[1] * h);
-      ctx.stroke();
-    }
-  }
-  function fit(cv) {
-    const r = cv.parentElement.getBoundingClientRect(), d = Math.min(window.devicePixelRatio || 1, 3);
-    cv.width = Math.max(1, Math.round(r.width * d));
-    cv.height = Math.max(1, Math.round(r.height * d));
-  }
-  function bindDraw(cv, id, i, after) {
-    let cur = null, pid = null, raf = 0;
-    const pt = e => {
-      const r = cv.getBoundingClientRect();
-      return [Math.round((e.clientX - r.left) / r.width * 1e4) / 1e4, Math.round((e.clientY - r.top) / r.height * 1e4) / 1e4];
-    };
-    const frame = () => { raf = 0; paint(cv, strokesOf(id, i), cur); };
-    cv.addEventListener('pointerdown', e => {
-      if (cur || (e.pointerType === 'mouse' && e.button !== 0)) return;
-      if (e.pointerType === 'pen') penAt = Date.now();
-      else if (e.pointerType === 'touch' && Date.now() - penAt < 1500) return; // 用触控笔时忽略手掌
-      e.preventDefault();
-      pid = e.pointerId;
-      try { cv.setPointerCapture(pid); } catch (_) { /* 某些浏览器不支持 */ }
-      cur = [pt(e)];
-      if (!raf) raf = requestAnimationFrame(frame);
-    });
-    cv.addEventListener('pointermove', e => {
-      if (!cur || e.pointerId !== pid) return;
-      if (e.pointerType === 'pen') penAt = Date.now();
-      const evs = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
-      (evs.length ? evs : [e]).forEach(ev => cur.push(pt(ev)));
-      if (!raf) raf = requestAnimationFrame(frame);
-    });
-    const end = e => {
-      if (!cur || e.pointerId !== pid) return;
-      const st = state.get(id) || {};
-      state.set(id, {...st, ink: [...(st.ink || []), [i, cur]]});
-      cur = null; pid = null;
-      if (raf) { cancelAnimationFrame(raf); raf = 0; }
-      paint(cv, strokesOf(id, i));
-      if (after) after();
-    };
-    cv.addEventListener('pointerup', end);
-    cv.addEventListener('pointercancel', end);
-    // iOS Safari：书写时阻止页面跟着滚动
-    cv.addEventListener('touchmove', e => e.preventDefault(), {passive: false});
-  }
-  function mountPad(pad) {
-    const id = pad.dataset.id, ro = pad.classList.contains('ro');
-    pad.querySelectorAll('.pbox').forEach(box => {
-      if (box.querySelector('canvas')) return;
-      const i = +box.dataset.i, cv = document.createElement('canvas');
-      box.appendChild(cv);
-      fit(cv);
-      paint(cv, strokesOf(id, i));
-      if (!ro && !pad.classList.contains('tap')) bindDraw(cv, id, i);
-    });
-  }
-  function unmountPad(pad) { pad.querySelectorAll('canvas').forEach(c => { c.width = c.height = 0; c.remove(); }); }
-  function repaintPad(pad) {
-    pad.querySelectorAll('.pbox').forEach(box => { const cv = box.querySelector('canvas'); if (cv) paint(cv, strokesOf(pad.dataset.id, +box.dataset.i)); });
-  }
-  function repaintAll(refit) {
-    readInk();
-    listEl.querySelectorAll('.pad').forEach(p => { if (refit) p.querySelectorAll('canvas').forEach(fit); repaintPad(p); });
-  }
-  // 只给屏幕附近的手写区创建画布，离开后释放，手机上不占内存
-  const io = 'IntersectionObserver' in window
-    ? new IntersectionObserver(es => es.forEach(e => (e.isIntersecting ? mountPad : unmountPad)(e.target)), {rootMargin: '600px 0px'})
-    : null;
-  const observePads = root => root.querySelectorAll('.pad').forEach(p => (io ? io.observe(p) : mountPad(p)));
 
   /* ---------- 错题本：存在 claude.ai 的 db 里，每人一份（data/users/<本人 id>/<题 id>） ---------- */
   const BOOK = 'cuoti';
@@ -652,59 +550,6 @@ button.pk-slot[aria-disabled]{cursor:default}
     });
   }
 
-  /* ---------- 放大书写板：手机上点格子打开，大号田字格里写，笔画与小格子共用 ---------- */
-  const wb = $('wb'), wbBox = $('wbBox'), wbThumbs = $('wbThumbs'), wbTitle = $('wbTitle');
-  let wbQ = null, wbI = 0, wbChars = [], wbCv = null;
-  function openBoard(id, i) {
-    const q = byId.get(id);
-    if (!q) return;
-    wbQ = q; wbChars = padGroups(q).flatMap(g => chars(g));
-    if (!wbChars.length) return;
-    wb.hidden = false; document.documentElement.style.overflow = 'hidden';
-    readInk(); wbShow(Math.max(0, Math.min(i, wbChars.length - 1)));
-  }
-  function wbThumb(k) {
-    const c = wbThumbs.querySelector(`.wb-th[data-k="${k}"] canvas`);
-    if (c) paint(c, strokesOf(wbQ.id, k));
-  }
-  function wbShow(i) {
-    wbI = i;
-    const st = state.get(wbQ.id) || {}, n = wbChars.length;
-    const reveal = st.done || st.revealed;
-    wbTitle.textContent = `第 ${i + 1} 格 / 共 ${n} 格` + (reveal ? `　标准字：${wbChars[i]}` : '');
-    if (wbCv) { wbCv.width = wbCv.height = 0; }
-    wbBox.innerHTML = '';
-    wbCv = document.createElement('canvas');
-    wbBox.appendChild(wbCv); fit(wbCv); paint(wbCv, strokesOf(wbQ.id, i));
-    bindDraw(wbCv, wbQ.id, i, () => wbThumb(i));
-    wbThumbs.innerHTML = wbChars.map((_, k) => `<button type="button" class="pbox wb-th${k === i ? ' on' : ''}" data-k="${k}" aria-label="第 ${k + 1} 格"></button>`).join('');
-    wbThumbs.querySelectorAll('.wb-th').forEach(b => { const c = document.createElement('canvas'); b.appendChild(c); fit(c); paint(c, strokesOf(wbQ.id, +b.dataset.k)); });
-    $('wbPrev').disabled = i === 0;
-    $('wbNext').textContent = i === n - 1 ? '写完了' : '下一格';
-  }
-  function closeBoard() {
-    if (!wbQ) return;
-    wb.hidden = true; document.documentElement.style.overflow = '';
-    if (wbCv) { wbCv.width = wbCv.height = 0; wbCv = null; }
-    wbThumbs.innerHTML = '';
-    listEl.querySelectorAll('article.q').forEach(card => { if (card.dataset.id === wbQ.id) card.querySelectorAll('.pad').forEach(repaintPad); });
-    wbQ = null;
-  }
-  $('wbPrev').addEventListener('click', () => { if (wbI > 0) wbShow(wbI - 1); });
-  $('wbNext').addEventListener('click', () => { if (wbI < wbChars.length - 1) wbShow(wbI + 1); else closeBoard(); });
-  $('wbDone').addEventListener('click', closeBoard);
-  $('wbUndo').addEventListener('click', () => {
-    const st = state.get(wbQ.id) || {}, ink = (st.ink || []).slice();
-    for (let k = ink.length - 1; k >= 0; k--) if (ink[k][0] === wbI) { ink.splice(k, 1); break; }
-    state.set(wbQ.id, {...st, ink}); paint(wbCv, strokesOf(wbQ.id, wbI)); wbThumb(wbI);
-  });
-  $('wbWipe').addEventListener('click', () => {
-    const st = state.get(wbQ.id) || {};
-    state.set(wbQ.id, {...st, ink: (st.ink || []).filter(x => x[0] !== wbI)}); paint(wbCv, []); wbThumb(wbI);
-  });
-  wbThumbs.addEventListener('click', e => { const b = e.target.closest('.wb-th'); if (b) wbShow(+b.dataset.k); });
-  wb.addEventListener('click', e => { if (e.target === wb) closeBoard(); });
-
   /* ---------- 列表与筛选 ---------- */
   const setCount = new Map(), groupCount = new Map();
   Q.forEach(q => { setCount.set(q.set, (setCount.get(q.set) || 0) + 1); const g = setById.get(q.set).group; groupCount.set(g, (groupCount.get(g) || 0) + 1); });
@@ -757,7 +602,6 @@ button.pk-slot[aria-disabled]{cursor:default}
       (s.notes ? `<p class="info-n">${esc(s.notes)}</p>` : '');
   }
   function renderList() {
-    if (io) io.disconnect();
     const qs = Q.filter(match);
     if (!qs.length) {
       listEl.innerHTML = filt.set === BOOK && !Q.some(inBook)
@@ -784,7 +628,6 @@ button.pk-slot[aria-disabled]{cursor:default}
     }
     if (open) h += '</section>';
     listEl.innerHTML = h;
-    observePads(listEl);
   }
   function renderScore() {
     if (mode === 'review') { scoreEl.textContent = '答案已全部显示'; return; }
@@ -817,7 +660,6 @@ button.pk-slot[aria-disabled]{cursor:default}
   let timer;
   kwEl.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { filt.q = kwEl.value; renderList(); }, 150); });
   flagEl.addEventListener('change', () => { filt.flag = flagEl.checked; renderList(); });
-  padEl.addEventListener('change', () => { padOn = padEl.checked; save('hzxdr-pad', padOn ? '1' : '0'); renderList(); });
   document.querySelectorAll('.seg button').forEach(b => b.addEventListener('click', () => {
     mode = b.dataset.mode; save('hzxdr-mode', mode);
     renderMode(); renderList(); renderScore();
@@ -830,8 +672,6 @@ button.pk-slot[aria-disabled]{cursor:default}
     setTimeout(() => { if (b.isConnected) { delete b.dataset.confirm; b.textContent = '清空'; } }, 3000);
   });
   listEl.addEventListener('click', e => {
-    const pb = e.target.closest('.pad.tap:not(.ro) .pbox');
-    if (pb) { openBoard(pb.closest('.pad').dataset.id, +pb.dataset.i); return; }
     const img = e.target.closest('img[data-zoom]');
     if (img) { lbImg.src = img.currentSrc || img.src; lbImg.alt = img.alt; lb.hidden = false; $('lbX').focus(); return; }
     const b = e.target.closest('button[data-act]');
@@ -848,15 +688,15 @@ button.pk-slot[aria-disabled]{cursor:default}
     }
     if (mode !== 'practice') return;
     const card = b.closest('article.q'), q = byId.get(card.dataset.id), st = state.get(q.id) || {};
-    if (act === 'board') { openBoard(q.id, 0); return; }
-    if (act === 'undo' || act === 'wipe') {
-      const ink = (st.ink || []).slice();
-      if (act === 'undo') ink.pop(); else ink.length = 0;
-      state.set(q.id, {...st, ink});
-      card.querySelectorAll('.pad').forEach(repaintPad);
-      return;
-    }
     if (act === 'pick') { if (st.done) return; state.set(q.id, {...st, done: true, picked: b.dataset.k, ok: isOk(q, b.dataset.k)}); }
+    else if (act === 'submit') {
+      if (st.done) return;
+      const typed = typedOf(card, st);
+      if (typed.every(v => !hanOnly(v))) { const i0 = card.querySelector('input.in'); if (i0) i0.focus(); return; }  // 什么都没填，不判
+      const ex = expects(q), full = hanOnly(q.answer_full);
+      const marks = ex.map((x, k) => hanOnly(typed[k]) === x || (ex.length === 1 && !!full && hanOnly(typed[k]) === full));
+      state.set(q.id, {...st, typed, marks, done: true, ok: marks.every(Boolean)});
+    }
     else if (act === 'reveal') state.set(q.id, {...st, revealed: true});
     else if (act === 'self') state.set(q.id, {...st, done: true, revealed: true, ok: b.dataset.v === '1'});
     else if (act === 'redo') state.delete(q.id);
@@ -874,33 +714,42 @@ button.pk-slot[aria-disabled]{cursor:default}
       state.set(q.id, {...st, sel});
     }
     else if (act === 'pkclear') state.set(q.id, {...st, sel: []});
-    else if (act === 'giveup') state.set(q.id, {...st, done: true, ok: false, gave: true});
+    else if (act === 'giveup') state.set(q.id, {...st, typed: typedOf(card, st), marks: [], done: true, ok: false, gave: true});
     else return;
     const ns = state.get(q.id) || {};
     if (ns.done && !st.done) recordResult(q, !!ns.ok);   // 刚判完分：答错收进错题本，答对累计“已掌握”
-    if (io) card.querySelectorAll('.pad').forEach(p => io.unobserve(p));
     const tpl = document.createElement('template');
     tpl.innerHTML = cardHTML(q);
     const nc = tpl.content.firstElementChild;
     card.replaceWith(nc);
-    observePads(nc);
     // 只在键盘操作时移动焦点，手机上点按不出现焦点框
     const f = ['tap', 'untap', 'pkclear'].includes(act) ? nc.querySelector('.pk-tile:not([aria-disabled])')
       : act !== 'pick' ? nc.querySelector('.act button') : null;
     if (f && e.detail === 0) f.focus({preventScroll: true});
     renderScore();
   });
+  // 输入时随手记下，切换筛选、重新渲染后不丢
+  listEl.addEventListener('input', e => {
+    const inp = e.target.closest('input.in');
+    if (!inp) return;
+    const id = inp.closest('article.q').dataset.id, st = state.get(id) || {}, typed = (st.typed || []).slice();
+    typed[+inp.dataset.k] = inp.value;
+    state.set(id, {...st, typed});
+  });
+  // 回车：跳到下一空，最后一空直接提交；输入法选字时的回车不算
+  listEl.addEventListener('keydown', e => {
+    const inp = e.target.closest('input.in');
+    if (!inp || e.key !== 'Enter' || e.isComposing || e.keyCode === 229) return;
+    e.preventDefault();
+    const card = inp.closest('article.q'), ins = [...card.querySelectorAll('input.in:not([readonly])')], k = ins.indexOf(inp);
+    if (k >= 0 && k < ins.length - 1) ins[k + 1].focus();
+    else { const b = card.querySelector('button[data-act="submit"]'); if (b) b.click(); }
+  });
   lb.addEventListener('click', () => { lb.hidden = true; lbImg.removeAttribute('src'); });
   document.addEventListener('keydown', e => {
     if (e.key !== 'Escape') return;
-    if (!wb.hidden) closeBoard();
-    else if (!lb.hidden) { lb.hidden = true; lbImg.removeAttribute('src'); }
+    if (!lb.hidden) { lb.hidden = true; lbImg.removeAttribute('src'); }
   });
-  let rz;
-  window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => repaintAll(true), 150); });
-  const mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-  if (mq && mq.addEventListener) mq.addEventListener('change', () => repaintAll(false));
-  new MutationObserver(() => repaintAll(false)).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
 
   function start(d) {
     d = d || {};
@@ -908,9 +757,7 @@ button.pk-slot[aria-disabled]{cursor:default}
     if (d.f) { filt.type = d.f.type || ''; filt.flag = !!d.f.flag; filt.q = d.f.q || ''; }
     kwEl.value = filt.q; flagEl.checked = filt.flag;
     mode = (d.mode || load('hzxdr-mode', 'practice')) === 'review' ? 'review' : 'practice';
-    padOn = load('hzxdr-pad', '1') !== '0';
-    padEl.checked = padOn;
-    readInk(); renderMode(); applyHash(); initBook();
+    renderMode(); applyHash(); initBook();
     window.claude?.hot?.snapshot?.(() => ({st: Object.fromEntries(state), f: {type: filt.type, flag: filt.flag, q: filt.q}, mode}));
   }
   window.claude?.hot?.ready ? window.claude.hot.ready(start) : start(window.claude?.hot?.data ?? {});
